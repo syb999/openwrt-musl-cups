@@ -20,16 +20,15 @@ opkg install /tmp/*.ipk
 
 -------------------------------------------
 
-根据 https://oldwiki.archive.openwrt.org/doc/howto/cups.server?s[]=cups
+wiki https://oldwiki.archive.openwrt.org/doc/howto/cups.server?s[]=cups
 
-1. kmod-usb-printers可能与cups存在兼容问题，请使用下面命令卸载kmod-usb-printers：
+1. 如果安装了kmod-usb-printers，该模块可能与cups存在兼容问题，请使用下面命令卸载kmod-usb-printers：
 rmmod usblp.ko
 
-2. 修改/etc/cups/cupsd.conf:
--User Nobody
--Group NObody
-+User root
-+Group root
+2.启用简易汉化的cups,修改/etc/cups/cupsd.conf:
+ WebInterface Yes
++DefaultLanguage zh
+
 
 3. chmod 700 /usr/lib/cups/backkend/usb
 
