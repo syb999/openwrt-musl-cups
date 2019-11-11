@@ -1,0 +1,313 @@
+*PPD-Adobe: "4.3"
+*%%%% PPD file for HP Color LaserJet cp1215 hpijs with CUPS.
+*%%%% Created by the CUPS PPD Compiler CUPS v1.7.2.
+*% (c) 2004-2008 Copyright HP Development Company, LP
+*FormatVersion: "4.3"
+*FileVersion: "hpijs 3.19.10"
+*LanguageVersion: English
+*LanguageEncoding: ISOLatin1
+*PCFileName: "hp-color_laserjet_cp1215-hpijs.ppd"
+*Product: "(HP Color LaserJet cp1215 Printer)"
+*Manufacturer: "HP"
+*ModelName: "HP Color LaserJet cp1215 hpijs"
+*ShortNickName: "HP Color LaserJet cp1215 hpijs"
+*NickName: "HP Color LaserJet cp1215 hpijs, 3.19.10, requires proprietary plugin"
+*PSVersion: "(3010.000) 0"
+*LanguageLevel: "3"
+*ColorDevice: True
+*DefaultColorSpace: RGB
+*FileSystem: False
+*Throughput: "1"
+*LandscapeOrientation: Plus90
+*TTRasterizer: Type42
+*% Driver-defined attributes...
+*DefaultResolution: 600dpi
+*FoomaticRIPOptionSetting PageSize=Custom: " -dDEVICEWIDTHPOINTS=0 -dD&&
+EVICEHEIGHTPOINTS=0"
+*End
+*FoomaticIDs: "HP-Color_LaserJet_2600n hpijs"
+*FoomaticRIPCommandLine: "gs -q -dBATCH -dPARANOIDSAFER -dQUIET -dNOPA&&
+USE -sDEVICE=ijs -sIjsServer=hpijs%A%B%C%D -dIjsUseOutputFD%Z -sOutputFi&&
+le=- -"
+*End
+*FoomaticRIPOption Model: "enum CmdLine A 100"
+*FoomaticRIPOptionSetting Model=HP-Color_LaserJet_2600n: " -sDeviceManufactur&&
+er=&quot;HEWLETT-PACKARD&quot; -sDeviceModel=&quot;HP Color LaserJet 2600n&quot;"
+*End
+*FoomaticRIPOption PrintoutMode: "enum Composite B"
+*FoomaticRIPOptionSetting PrintoutMode=Draft: "Quality=DraftColorCMYK"
+*FoomaticRIPOptionSetting PrintoutMode=Draft.Gray: "Quality=DraftGrayscaleCMYK"
+*FoomaticRIPOptionSetting PrintoutMode=Normal: "Quality=NormalColorCMYK"
+*FoomaticRIPOptionSetting PrintoutMode=Normal.Gray: "Quality=NormalGrayscaleCMYK"
+*FoomaticRIPOption MediaType: "enum CmdLine C"
+*FoomaticRipOptionSetting MediaType=Plain: ",Quality:MediaType=0"
+*FoomaticRipOptionSetting MediaType=Transparency: ",Quality:MediaType=3"
+*FoomaticRipOptionSetting MediaType=Photo: ",Quality:MediaType=3"
+*FoomaticRIPOption InputSlot: "enum CmdLine D"
+*FoomaticRIPOptionSetting InputSlot=Default: ",PS:MediaPosition=7"
+*FoomaticRIPOptionSetting InputSlot=Manual: ",PS:MediaPosition=2"
+*FoomaticRIPOption PageSize: "enum CmdLine A"
+*FoomaticRIPOptionSetting PageSize=Letter: " -dDEVICEWIDTHPOINTS=612 -&&
+dDEVICEHEIGHTPOINTS=792"
+*End
+*FoomaticRIPOptionSetting PageSize=A4: " -dDEVICEWIDTHPOINTS=595 -dDEV&&
+ICEHEIGHTPOINTS=842"
+*End
+*FoomaticRIPOptionSetting PageSize=Photo: " -dDEVICEWIDTHPOINTS=288 -d&&
+DEVICEHEIGHTPOINTS=432"
+*End
+*FoomaticRIPOptionSetting PageSize=Photo5x7: " -dDEVICEWIDTHPOINTS=360&&
+ -dDEVICEHEIGHTPOINTS=504"
+*End
+*FoomaticRIPOptionSetting PageSize=3x5: " -dDEVICEWIDTHPOINTS=216 -dDE&&
+VICEHEIGHTPOINTS=360"
+*End
+*FoomaticRIPOptionSetting PageSize=5x8: " -dDEVICEWIDTHPOINTS=360 -dDE&&
+VICEHEIGHTPOINTS=576"
+*End
+*FoomaticRIPOptionSetting PageSize=A5: " -dDEVICEWIDTHPOINTS=420 -dDEV&&
+ICEHEIGHTPOINTS=595"
+*End
+*FoomaticRIPOptionSetting PageSize=A6: " -dDEVICEWIDTHPOINTS=297 -dDEV&&
+ICEHEIGHTPOINTS=420"
+*End
+*FoomaticRIPOptionSetting PageSize=B5JIS: " -dDEVICEWIDTHPOINTS=516 -d&&
+DEVICEHEIGHTPOINTS=729"
+*End
+*FoomaticRIPOptionSetting PageSize=Env10: " -dDEVICEWIDTHPOINTS=297 -d&&
+DEVICEHEIGHTPOINTS=684"
+*End
+*FoomaticRIPOptionSetting PageSize=EnvC5: " -dDEVICEWIDTHPOINTS=459 -d&&
+DEVICEHEIGHTPOINTS=649"
+*End
+*FoomaticRIPOptionSetting PageSize=EnvC6: " -dDEVICEWIDTHPOINTS=323 -d&&
+DEVICEHEIGHTPOINTS=459"
+*End
+*FoomaticRIPOptionSetting PageSize=EnvDL: " -dDEVICEWIDTHPOINTS=312 -d&&
+DEVICEHEIGHTPOINTS=624"
+*End
+*FoomaticRIPOptionSetting PageSize=EnvISOB5: " -dDEVICEWIDTHPOINTS=499&&
+ -dDEVICEHEIGHTPOINTS=709"
+*End
+*FoomaticRIPOptionSetting PageSize=EnvMonarch: " -dDEVICEWIDTHPOINTS=2&&
+79 -dDEVICEHEIGHTPOINTS=540"
+*End
+*FoomaticRIPOptionSetting PageSize=Executive: " -dDEVICEWIDTHPOINTS=52&&
+2 -dDEVICEHEIGHTPOINTS=756"
+*End
+*FoomaticRIPOptionSetting PageSize=FLSA: " -dDEVICEWIDTHPOINTS=612 -dD&&
+EVICEHEIGHTPOINTS=936"
+*End
+*FoomaticRIPOptionSetting PageSize=Hagaki: " -dDEVICEWIDTHPOINTS=283 -&&
+dDEVICEHEIGHTPOINTS=420"
+*End
+*FoomaticRIPOptionSetting PageSize=Legal: " -dDEVICEWIDTHPOINTS=612 -d&&
+DEVICEHEIGHTPOINTS=1008"
+*End
+*FoomaticRIPOptionSetting PageSize=Oufuku: " -dDEVICEWIDTHPOINTS=567 -&&
+dDEVICEHEIGHTPOINTS=420"
+*End
+*FoomaticRIPOptionSetting PageSize=w558h774: " -dDEVICEWIDTHPOINTS=558&&
+ -dDEVICEHEIGHTPOINTS=774"
+*End
+*FoomaticRIPOptionSetting PageSize=w612h935: " -dDEVICEWIDTHPOINTS=612&&
+ -dDEVICEHEIGHTPOINTS=935"
+*End
+*FoomaticRIPOption Quality: "enum CmdLine B"
+*FoomaticRIPOptionSetting Quality=DraftColorCMYK: " -r600 -sIjsPar&&
+ams=Quality:Quality=1,Quality:ColorMode=2,Quality:PenSet=2"
+*End
+*FoomaticRIPOptionSetting Quality=NormalColorCMYK: " -r600 -sIjsParams=Q&&
+uality:Quality=0,Quality:ColorMode=2,Quality:PenSet=2"
+*End
+*FoomaticRIPOptionSetting Quality=DraftGrayscaleCMYK: " -r600 -sIjsPar&&
+ams=Quality:Quality=1,Quality:ColorMode=0,Quality:PenSet=2"
+*End
+*FoomaticRIPOptionSetting Quality=NormalGrayscaleCMYK: " -r600 -sIjsParams=Q&&
+uality:Quality=0,Quality:ColorMode=0,Quality:PenSet=2"
+*End
+*1284DeviceID: "MFG:Hewlett-Packard;MDL:hp color laserjet cp1215;DES:hp color laserjet cp1215;"
+*cupsVersion: 1.7
+*cupsModelNumber: 0
+*cupsManualCopies: True
+*cupsFilter: "application/vnd.cups-postscript 100 foomatic-rip-hplip"
+*cupsFilter: "application/vnd.cups-pdf 0 foomatic-rip-hplip"
+*cupsLanguages: "en"
+*OpenUI *PageSize/Media Size: PickOne
+*OrderDependency: 10 AnySetup *PageSize
+*DefaultPageSize: Letter
+*PageSize Letter/Letter: "%% FoomaticRIPOptionSetting: PageSize=Letter"
+*PageSize A4/A4: "%% FoomaticRIPOptionSetting: PageSize=A4"
+*PageSize Photo/Photo/4x6 inch index card: "%% FoomaticRIPOptionSetting: PageSize=Photo"
+*PageSize Photo5x7/Photo/5x7 inch index card: "%% FoomaticRIPOptionSetting: PageSize=Photo5x7"
+*PageSize 3x5/3x5 inch index card: "%% FoomaticRIPOptionSetting: PageSize=3x5"
+*PageSize 5x8/5x8 inch index card: "%% FoomaticRIPOptionSetting: PageSize=5x8"
+*PageSize A5/A5: "%% FoomaticRIPOptionSetting: PageSize=A5"
+*PageSize A6/A6: "%% FoomaticRIPOptionSetting: PageSize=A6"
+*PageSize B5JIS/B5 (JIS): "%% FoomaticRIPOptionSetting: PageSize=B5JIS"
+*PageSize Env10/Envelope #10: "%% FoomaticRIPOptionSetting: PageSize=Env10"
+*PageSize EnvC5/Envelope C5: "%% FoomaticRIPOptionSetting: PageSize=EnvC5"
+*PageSize EnvC6/Envelope C6: "%% FoomaticRIPOptionSetting: PageSize=EnvC6"
+*PageSize EnvDL/Envelope DL: "%% FoomaticRIPOptionSetting: PageSize=EnvDL"
+*PageSize EnvISOB5/Envelope B5: "%% FoomaticRIPOptionSetting: PageSize=EnvISOB5"
+*PageSize EnvMonarch/Envelope Monarch: "%% FoomaticRIPOptionSetting: PageSize=EnvMonarch"
+*PageSize Executive/Executive: "%% FoomaticRIPOptionSetting: PageSize=Executive"
+*PageSize FLSA/American Foolscap: "%% FoomaticRIPOptionSetting: PageSize=FLSA"
+*PageSize Hagaki/Hagaki: "%% FoomaticRIPOptionSetting: PageSize=Hagaki"
+*PageSize Legal/Legal: "%% FoomaticRIPOptionSetting: PageSize=Legal"
+*PageSize Oufuku/Oufuku-Hagaki: "%% FoomaticRIPOptionSetting: PageSize=Oufuku"
+*PageSize w558h774/16K: "%% FoomaticRIPOptionSetting: PageSize=w558h774"
+*PageSize w612h935/Executive (JIS): "%% FoomaticRIPOptionSetting: PageSize=w612h935"
+*CloseUI: *PageSize
+*OpenUI *PageRegion/Media Size: PickOne
+*OrderDependency: 10 AnySetup *PageRegion
+*DefaultPageRegion: Letter
+*PageRegion Letter/Letter: "%% FoomaticRIPOptionSetting: PageSize=Letter"
+*PageRegion A4/A4: "%% FoomaticRIPOptionSetting: PageSize=A4"
+*PageRegion Photo/Photo/4x6 inch index card: "%% FoomaticRIPOptionSetting: PageSize=Photo"
+*PageRegion Photo5x7/Photo/5x7 inch index card: "%% FoomaticRIPOptionSetting: PageSize=Photo5x7"
+*PageRegion 3x5/3x5 inch index card: "%% FoomaticRIPOptionSetting: PageSize=3x5"
+*PageRegion 5x8/5x8 inch index card: "%% FoomaticRIPOptionSetting: PageSize=5x8"
+*PageRegion A5/A5: "%% FoomaticRIPOptionSetting: PageSize=A5"
+*PageRegion A6/A6: "%% FoomaticRIPOptionSetting: PageSize=A6"
+*PageRegion B5JIS/B5 (JIS): "%% FoomaticRIPOptionSetting: PageSize=B5JIS"
+*PageRegion Env10/Envelope #10: "%% FoomaticRIPOptionSetting: PageSize=Env10"
+*PageRegion EnvC5/Envelope C5: "%% FoomaticRIPOptionSetting: PageSize=EnvC5"
+*PageRegion EnvC6/Envelope C6: "%% FoomaticRIPOptionSetting: PageSize=EnvC6"
+*PageRegion EnvDL/Envelope DL: "%% FoomaticRIPOptionSetting: PageSize=EnvDL"
+*PageRegion EnvISOB5/Envelope B5: "%% FoomaticRIPOptionSetting: PageSize=EnvISOB5"
+*PageRegion EnvMonarch/Envelope Monarch: "%% FoomaticRIPOptionSetting: PageSize=EnvMonarch"
+*PageRegion Executive/Executive: "%% FoomaticRIPOptionSetting: PageSize=Executive"
+*PageRegion FLSA/American Foolscap: "%% FoomaticRIPOptionSetting: PageSize=FLSA"
+*PageRegion Hagaki/Hagaki: "%% FoomaticRIPOptionSetting: PageSize=Hagaki"
+*PageRegion Legal/Legal: "%% FoomaticRIPOptionSetting: PageSize=Legal"
+*PageRegion Oufuku/Oufuku-Hagaki: "%% FoomaticRIPOptionSetting: PageSize=Oufuku"
+*PageRegion w558h774/16K: "%% FoomaticRIPOptionSetting: PageSize=w558h774"
+*PageRegion w612h935/Executive (JIS): "%% FoomaticRIPOptionSetting: PageSize=w612h935"
+*CloseUI: *PageRegion
+*DefaultImageableArea: Letter
+*ImageableArea Letter/Letter: "18 14.39999961853 594 777.599975585938"
+*ImageableArea A4/A4: "18 14.39999961853 577 827.599975585938"
+*ImageableArea Photo/Photo/4x6 inch index card: "18 14.39999961853 270 417.600006103516"
+*ImageableArea Photo5x7/Photo/5x7 inch index card: "18 14.39999961853 342 489.600006103516"
+*ImageableArea 3x5/3x5 inch index card: "18 14.39999961853 198 345.600006103516"
+*ImageableArea 5x8/5x8 inch index card: "18 14.39999961853 342 561.599975585938"
+*ImageableArea A5/A5: "18 14.39999961853 402 580.599975585938"
+*ImageableArea A6/A6: "18 14.39999961853 279 405.600006103516"
+*ImageableArea B5JIS/B5 (JIS): "18 14.39999961853 498 714.599975585938"
+*ImageableArea Env10/Envelope #10: "18 14.39999961853 279 669.599975585938"
+*ImageableArea EnvC5/Envelope C5: "18 14.39999961853 441 634.599975585938"
+*ImageableArea EnvC6/Envelope C6: "18 14.39999961853 305 444.600006103516"
+*ImageableArea EnvDL/Envelope DL: "18 14.39999961853 294 609.599975585938"
+*ImageableArea EnvISOB5/Envelope B5: "18 14.39999961853 481 694.599975585938"
+*ImageableArea EnvMonarch/Envelope Monarch: "18 14.39999961853 261 525.599975585938"
+*ImageableArea Executive/Executive: "18 14.39999961853 504 741.599975585938"
+*ImageableArea FLSA/American Foolscap: "18 14.39999961853 594 921.599975585938"
+*ImageableArea Hagaki/Hagaki: "18 14.39999961853 265 405.600006103516"
+*ImageableArea Legal/Legal: "18 14.39999961853 594 993.599975585938"
+*ImageableArea Oufuku/Oufuku-Hagaki: "18 14.39999961853 549 405.600006103516"
+*ImageableArea w558h774/16K: "18 14.39999961853 540 759.599975585938"
+*ImageableArea w612h935/Executive (JIS): "18 14.39999961853 594 920.599975585938"
+*DefaultPaperDimension: Letter
+*PaperDimension Letter/Letter: "612 792"
+*PaperDimension A4/A4: "595 842"
+*PaperDimension Photo/Photo/4x6 inch index card: "288 432"
+*PaperDimension Photo5x7/Photo/5x7 inch index card: "360 504"
+*PaperDimension 3x5/3x5 inch index card: "216 360"
+*PaperDimension 5x8/5x8 inch index card: "360 576"
+*PaperDimension A5/A5: "420 595"
+*PaperDimension A6/A6: "297 420"
+*PaperDimension B5JIS/B5 (JIS): "516 729"
+*PaperDimension Env10/Envelope #10: "297 684"
+*PaperDimension EnvC5/Envelope C5: "459 649"
+*PaperDimension EnvC6/Envelope C6: "323 459"
+*PaperDimension EnvDL/Envelope DL: "312 624"
+*PaperDimension EnvISOB5/Envelope B5: "499 709"
+*PaperDimension EnvMonarch/Envelope Monarch: "279 540"
+*PaperDimension Executive/Executive: "522 756"
+*PaperDimension FLSA/American Foolscap: "612 936"
+*PaperDimension Hagaki/Hagaki: "283 420"
+*PaperDimension Legal/Legal: "612 1008"
+*PaperDimension Oufuku/Oufuku-Hagaki: "567 420"
+*PaperDimension w558h774/16K: "558 774"
+*PaperDimension w612h935/Executive (JIS): "612 935"
+*MaxMediaWidth: "792"
+*MaxMediaHeight: "1224"
+*HWMargins: 18 14.39999961853 18 14.39999961853
+*CustomPageSize True: "pop pop pop <</PageSize[5 -2 roll]/ImagingBBox null>>setpagedevice"
+*ParamCustomPageSize Width: 1 points 72 792
+*ParamCustomPageSize Height: 2 points 288 1224
+*ParamCustomPageSize WidthOffset: 3 points 0 0
+*ParamCustomPageSize HeightOffset: 4 points 0 0
+*ParamCustomPageSize Orientation: 5 int 0 0
+*OpenUI *PrintoutMode/Printout Mode: PickOne
+*OrderDependency: 10 AnySetup *PrintoutMode
+*DefaultPrintoutMode: Normal
+*PrintoutMode Draft/Draft Color: "%% FoomaticRIPOptionSetting: PrintoutMode=Draft"
+*PrintoutMode Normal/Normal Color: "%% FoomaticRIPOptionSetting: PrintoutMode=Normal"
+*PrintoutMode Draft.Gray/Draft Grayscale: "%% FoomaticRIPOptionSetting: PrintoutMode=Draft.Gray"
+*PrintoutMode Normal.Gray/Normal Grayscale: "%% FoomaticRIPOptionSetting: PrintoutMode=Normal.Gray"
+*CloseUI: *PrintoutMode
+*OpenUI *MediaType/Media Type: PickOne
+*OrderDependency: 10 AnySetup *MediaType
+*DefaultMediaType: Plain
+*MediaType Plain/Plain Paper: "%% FoomaticRIPOptionSetting: MediaType=Plain"
+*MediaType Transparency/Transparency: "%% FoomaticRIPOptionSetting: MediaType=&&
+Transparency"
+*End
+*MediaType Photo/Photo Paper: "%% FoomaticRIPOptionSetting: MediaType=Photo"
+*CloseUI: *MediaType
+*OpenUI *InputSlot/Media Source: PickOne
+*OrderDependency: 100 AnySetup *InputSlot
+*DefaultInputSlot: Default
+*InputSlot Default/Automatic: "%% FoomaticRIPOptionSetting: InputSlot=Default"
+*InputSlot Manual/Manual Feeder: "%% FoomaticRIPOptionSetting: InputSlot=Manual"
+*CloseUI: *InputSlot
+*OpenGroup: PrintoutMode/Printout Mode
+*OpenUI *Quality/Resolution, Quality, Toner Type, Media Type: PickOne
+*OrderDependency: 100 AnySetup *Quality
+*DefaultQuality: FromPrintoutMode
+*Quality FromPrintoutMode/Controlled by 'Printout Mode': "%% FoomaticRIPOptionSetting: Quality=@PrintoutMode"
+*Quality DraftColorCMYK/600 dpi, Draft, Color, Black + Color Cartr.: "%% FoomaticRIPOptionSetting: Quality=DraftColorCMYK"
+*Quality NormalColorCMYK/600 dpi, Normal, Color, Black + Color Cartr.: "%% FoomaticRIPOptionSetting: Quality=NormalColorCMYK"
+*Quality DraftGrayscaleCMYK/600 dpi, Draft, Grayscale, Black + Color Cartr.: "%% FoomaticRIPOptionSetting: Quality=DraftGrayscaleCMYK"
+*Quality NormalGrayscaleCMYK/600 dpi, Normal, Grayscale, Black + Color Cartr.: "%% FoomaticRIPOptionSetting: Quality=NormalGrayscaleCMYK"
+*CloseUI: *Quality
+*CloseGroup: PrintoutMode
+*DefaultFont: Courier
+*Font AvantGarde-Book: Standard "(1.05)" Standard ROM
+*Font AvantGarde-BookOblique: Standard "(1.05)" Standard ROM
+*Font AvantGarde-Demi: Standard "(1.05)" Standard ROM
+*Font AvantGarde-DemiOblique: Standard "(1.05)" Standard ROM
+*Font Bookman-Demi: Standard "(1.05)" Standard ROM
+*Font Bookman-DemiItalic: Standard "(1.05)" Standard ROM
+*Font Bookman-Light: Standard "(1.05)" Standard ROM
+*Font Bookman-LightItalic: Standard "(1.05)" Standard ROM
+*Font Courier: Standard "(1.05)" Standard ROM
+*Font Courier-Bold: Standard "(1.05)" Standard ROM
+*Font Courier-BoldOblique: Standard "(1.05)" Standard ROM
+*Font Courier-Oblique: Standard "(1.05)" Standard ROM
+*Font Helvetica: Standard "(1.05)" Standard ROM
+*Font Helvetica-Bold: Standard "(1.05)" Standard ROM
+*Font Helvetica-BoldOblique: Standard "(1.05)" Standard ROM
+*Font Helvetica-Narrow: Standard "(1.05)" Standard ROM
+*Font Helvetica-Narrow-Bold: Standard "(1.05)" Standard ROM
+*Font Helvetica-Narrow-BoldOblique: Standard "(1.05)" Standard ROM
+*Font Helvetica-Narrow-Oblique: Standard "(1.05)" Standard ROM
+*Font Helvetica-Oblique: Standard "(1.05)" Standard ROM
+*Font NewCenturySchlbk-Bold: Standard "(1.05)" Standard ROM
+*Font NewCenturySchlbk-BoldItalic: Standard "(1.05)" Standard ROM
+*Font NewCenturySchlbk-Italic: Standard "(1.05)" Standard ROM
+*Font NewCenturySchlbk-Roman: Standard "(1.05)" Standard ROM
+*Font Palatino-Bold: Standard "(1.05)" Standard ROM
+*Font Palatino-BoldItalic: Standard "(1.05)" Standard ROM
+*Font Palatino-Italic: Standard "(1.05)" Standard ROM
+*Font Palatino-Roman: Standard "(1.05)" Standard ROM
+*Font Symbol: Special "(001.005)" Special ROM
+*Font Times-Bold: Standard "(1.05)" Standard ROM
+*Font Times-BoldItalic: Standard "(1.05)" Standard ROM
+*Font Times-Italic: Standard "(1.05)" Standard ROM
+*Font Times-Roman: Standard "(1.05)" Standard ROM
+*Font ZapfChancery-MediumItalic: Standard "(1.05)" Standard ROM
+*Font ZapfDingbats: Special "(001.005)" Special ROM
+*% End of hp-color_laserjet_cp1215-hpijs.ppd, 16205 bytes.

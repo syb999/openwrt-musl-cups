@@ -1,0 +1,438 @@
+*PPD-Adobe: "4.3"
+*%
+*% For information on using this, and to obtain the required backend
+*% script, consult http://www.openprinting.org/
+*%
+*% This file is published under the GNU General Public License
+*%
+*% PPD-O-MATIC (4.0.0 or newer) generated this PPD file. It is for use with 
+*% all programs and environments which use PPD files for dealing with
+*% printer capability information. The printer must be configured with the
+*% "foomatic-rip" backend filter script of Foomatic 4.0.0 or newer. This 
+*% file and "foomatic-rip" work together to support PPD-controlled printer
+*% driver option access with all supported printer drivers and printing
+*% spoolers.
+*%
+*% To save this file on your disk, wait until the download has completed
+*% (the animation of the browser logo must stop) and then use the
+*% "Save as..." command in the "File" menu of your browser or in the 
+*% pop-up manu when you click on this document with the right mouse button.
+*% DO NOT cut and paste this file into an editor with your mouse. This can
+*% introduce additional line breaks which lead to unexpected results.
+*%
+*% You may save this file as 'Brother-HL-2140-hpijs-pcl5e.ppd'
+*%
+*%
+*FormatVersion:	"4.3"
+*FileVersion:	"1.1"
+*LanguageVersion: English 
+*LanguageEncoding: ISOLatin1
+*PCFileName:	"HPIJS-PC.PPD"
+*Manufacturer:	"Brother"
+*Product:	"(HL-2140 series)"
+*cupsVersion:	1.0
+*cupsManualCopies: True
+*cupsModelNumber:  2
+*cupsFilter:	"application/vnd.cups-postscript 100 foomatic-rip"
+*cupsFilter:	"application/vnd.cups-pdf 0 foomatic-rip"
+*%pprRIP:        foomatic-rip other
+*ModelName:     "Brother HL-2140"
+*ShortNickName: "Brother HL-2140 hpijs-pcl5e"
+*NickName:      "Brother HL-2140 Foomatic/hpijs-pcl5e (recommended)"
+*PSVersion:	"(3010.000) 550"
+*PSVersion:	"(3010.000) 651"
+*PSVersion:	"(3010.000) 652"
+*PSVersion:	"(3010.000) 653"
+*PSVersion:	"(3010.000) 704"
+*PSVersion:	"(3010.000) 705"
+*PSVersion:	"(3010.000) 800"
+*PSVersion:	"(3010.000) 815"
+*PSVersion:	"(3010.000) 850"
+*PSVersion:	"(3010.000) 860"
+*PSVersion:	"(3010.000) 861"
+*PSVersion:	"(3010.000) 862"
+*PSVersion:	"(3010.000) 863"
+*PSVersion:	"(3010.000) 864"
+*PSVersion:	"(3010.000) 870"
+*LanguageLevel:	"3"
+*ColorDevice:	False
+*DefaultColorSpace: Gray
+*FileSystem:	False
+*Throughput:	"1"
+*LandscapeOrientation: Plus90
+*TTRasterizer:	Type42
+*1284DeviceID: "MFG:Brother;MDL:HL-2140 series;CMD:PJL,HBP;DRV:Dhpijs-pcl5e,R1,M0,F1,P0,Sv,TI,X600,Y600,C0,t100,l100,g100,p100,s70;"
+
+*driverName hpijs-pcl5e: "
+   HP's HPIJS driver - PPDs for compatible PCL-5e-based non-HP laser printers
+  "
+*driverType I/IJS: ""
+*driverUrl: "http://hplipopensource.com/"
+*driverObsolete: False
+*driverSupplier: "Hewlett-Packard"
+*driverManufacturerSupplied: False
+*driverLicense: "BSD"
+*driverFreeSoftware: True
+*driverSupportContactVoluntary: "https://launchpad.net/hplip HPLIP support and bug tracking system"
+*driverMaxResolution: 600 600
+*driverColor: False
+*driverTextSupport: 100
+*driverLineartSupport: 100
+*driverGraphicsSupport: 100
+*driverPhotoSupport: 100
+*driverRenderingSpeed: 70
+
+*DefaultResolution: 600dpi
+
+
+
+*HWMargins: 18 14.40 18 14.4
+*VariablePaperSize: True
+*MaxMediaWidth: 100000
+*MaxMediaHeight: 100000
+*NonUIOrderDependency: 105 AnySetup *CustomPageSize
+*CustomPageSize True: "pop pop pop pop pop
+%% FoomaticRIPOptionSetting: PageSize=Custom"
+*End
+*FoomaticRIPOptionSetting PageSize=Custom: " -dDEVICEWIDTHPOINTS=0 -dD&&
+EVICEHEIGHTPOINTS=0"
+*End
+*ParamCustomPageSize Width: 1 points 36 100000
+*ParamCustomPageSize Height: 2 points 36 100000
+*ParamCustomPageSize Orientation: 3 int 0 0
+*ParamCustomPageSize WidthOffset: 4 points 0 0
+*ParamCustomPageSize HeightOffset: 5 points 0 0
+
+*FoomaticIDs: Brother-HL-2140 hpijs-pcl5e
+*FoomaticRIPCommandLine: "gs -q -dBATCH -dPARANOIDSAFER -dQUIET -dNOPA&&
+USE -dNOMEDIAATTRS -dNOINTERPOLATE -sDEVICE=ijs -sIjsServer=hpijs -sDe&&
+viceManufacturer=&quot;HEWLETT-PACKARD&quot; -sDeviceModel=&quot;HP La&&
+serJet&quot;%A%B%C -dIjsUseOutputFD%Z -sOutputFile=- -"
+*End
+
+*OpenGroup: General/General
+
+*OpenUI *PrintoutMode/Printout Mode: PickOne
+*FoomaticRIPOption PrintoutMode: enum Composite B
+*OrderDependency: 10 AnySetup *PrintoutMode
+*DefaultPrintoutMode: Normal
+*PrintoutMode Draft/Draft: "%% FoomaticRIPOptionSetting: PrintoutMode=Draft"
+*FoomaticRIPOptionSetting PrintoutMode=Draft: "Quality=300DraftGraysca&&
+leK"
+*End
+*PrintoutMode Normal/Normal: "%% FoomaticRIPOptionSetting: PrintoutMode=Normal"
+*FoomaticRIPOptionSetting PrintoutMode=Normal: "Quality=300GrayscaleK"
+*PrintoutMode High/High Quality: "%% FoomaticRIPOptionSetting: PrintoutMode=High"
+*FoomaticRIPOptionSetting PrintoutMode=High: "Quality=600GrayscaleK"
+*CloseUI: *PrintoutMode
+
+*OpenUI *InputSlot/Media Source: PickOne
+*FoomaticRIPOption InputSlot: enum CmdLine C
+*OrderDependency: 100 AnySetup *InputSlot
+*DefaultInputSlot: Default
+*InputSlot Default/Printer Default: "%% FoomaticRIPOptionSetting: InputSlot=Default"
+*FoomaticRIPOptionSetting InputSlot=Default: ",PS:MediaPosition=7"
+*InputSlot Upper/Upper Tray: "%% FoomaticRIPOptionSetting: InputSlot=Upper"
+*FoomaticRIPOptionSetting InputSlot=Upper: ",PS:MediaPosition=1"
+*InputSlot Lower/Lower Tray: "%% FoomaticRIPOptionSetting: InputSlot=Lower"
+*FoomaticRIPOptionSetting InputSlot=Lower: ",PS:MediaPosition=4"
+*InputSlot Envelope/Envelope Feeder: "%% FoomaticRIPOptionSetting: InputSlot=Envelope"
+*FoomaticRIPOptionSetting InputSlot=Envelope: ",PS:MediaPosition=3"
+*InputSlot LargeCapacity/Large Capacity Tray: "%% FoomaticRIPOptionSetting: InputSlot=LargeCapacity"
+*FoomaticRIPOptionSetting InputSlot=LargeCapacity: ",PS:MediaPosition=&&
+5"
+*End
+*InputSlot Manual/Manual Feeder: "%% FoomaticRIPOptionSetting: InputSlot=Manual"
+*FoomaticRIPOptionSetting InputSlot=Manual: ",PS:MediaPosition=2"
+*InputSlot MPTray/Multipurpose Tray: "%% FoomaticRIPOptionSetting: InputSlot=MPTray"
+*FoomaticRIPOptionSetting InputSlot=MPTray: ",PS:MediaPosition=8"
+*CloseUI: *InputSlot
+
+*OpenUI *PageSize/Page Size: PickOne
+*FoomaticRIPOption PageSize: enum CmdLine A
+*OrderDependency: 105 AnySetup *PageSize
+*DefaultPageSize: Letter
+*PageSize Letter/Letter: "%% FoomaticRIPOptionSetting: PageSize=Letter"
+*FoomaticRIPOptionSetting PageSize=Letter: " -dDEVICEWIDTHPOINTS=612 -&&
+dDEVICEHEIGHTPOINTS=792"
+*End
+*PageSize A4/A4: "%% FoomaticRIPOptionSetting: PageSize=A4"
+*FoomaticRIPOptionSetting PageSize=A4: " -dDEVICEWIDTHPOINTS=595 -dDEV&&
+ICEHEIGHTPOINTS=842"
+*End
+*PageSize Photo/Photo or 4x6 inch index card: "%% FoomaticRIPOptionSetting: PageSize=Photo"
+*FoomaticRIPOptionSetting PageSize=Photo: " -dDEVICEWIDTHPOINTS=288 -d&&
+DEVICEHEIGHTPOINTS=432"
+*End
+*PageSize Photo5x7/Photo or 5x7 inch index card: "%% FoomaticRIPOptionSetting: PageSize=Photo5x7"
+*FoomaticRIPOptionSetting PageSize=Photo5x7: " -dDEVICEWIDTHPOINTS=360&&
+ -dDEVICEHEIGHTPOINTS=504"
+*End
+*PageSize 3x5/3x5 inch index card: "%% FoomaticRIPOptionSetting: PageSize=3x5"
+*FoomaticRIPOptionSetting PageSize=3x5: " -dDEVICEWIDTHPOINTS=216 -dDE&&
+VICEHEIGHTPOINTS=360"
+*End
+*PageSize 5x8/5x8 inch index card: "%% FoomaticRIPOptionSetting: PageSize=5x8"
+*FoomaticRIPOptionSetting PageSize=5x8: " -dDEVICEWIDTHPOINTS=360 -dDE&&
+VICEHEIGHTPOINTS=576"
+*End
+*PageSize A3/A3: "%% FoomaticRIPOptionSetting: PageSize=A3"
+*FoomaticRIPOptionSetting PageSize=A3: " -dDEVICEWIDTHPOINTS=842 -dDEV&&
+ICEHEIGHTPOINTS=1190"
+*End
+*PageSize A5/A5: "%% FoomaticRIPOptionSetting: PageSize=A5"
+*FoomaticRIPOptionSetting PageSize=A5: " -dDEVICEWIDTHPOINTS=420 -dDEV&&
+ICEHEIGHTPOINTS=595"
+*End
+*PageSize A6/A6: "%% FoomaticRIPOptionSetting: PageSize=A6"
+*FoomaticRIPOptionSetting PageSize=A6: " -dDEVICEWIDTHPOINTS=297 -dDEV&&
+ICEHEIGHTPOINTS=420"
+*End
+*PageSize B4JIS/B4 (JIS): "%% FoomaticRIPOptionSetting: PageSize=B4JIS"
+*FoomaticRIPOptionSetting PageSize=B4JIS: " -dDEVICEWIDTHPOINTS=729 -d&&
+DEVICEHEIGHTPOINTS=1033"
+*End
+*PageSize B5JIS/B5 (JIS): "%% FoomaticRIPOptionSetting: PageSize=B5JIS"
+*FoomaticRIPOptionSetting PageSize=B5JIS: " -dDEVICEWIDTHPOINTS=516 -d&&
+DEVICEHEIGHTPOINTS=729"
+*End
+*PageSize Env10/Envelope #10: "%% FoomaticRIPOptionSetting: PageSize=Env10"
+*FoomaticRIPOptionSetting PageSize=Env10: " -dDEVICEWIDTHPOINTS=297 -d&&
+DEVICEHEIGHTPOINTS=684"
+*End
+*PageSize EnvC5/Envelope C5: "%% FoomaticRIPOptionSetting: PageSize=EnvC5"
+*FoomaticRIPOptionSetting PageSize=EnvC5: " -dDEVICEWIDTHPOINTS=459 -d&&
+DEVICEHEIGHTPOINTS=649"
+*End
+*PageSize EnvC6/Envelope C6: "%% FoomaticRIPOptionSetting: PageSize=EnvC6"
+*FoomaticRIPOptionSetting PageSize=EnvC6: " -dDEVICEWIDTHPOINTS=323 -d&&
+DEVICEHEIGHTPOINTS=459"
+*End
+*PageSize EnvDL/Envelope DL: "%% FoomaticRIPOptionSetting: PageSize=EnvDL"
+*FoomaticRIPOptionSetting PageSize=EnvDL: " -dDEVICEWIDTHPOINTS=312 -d&&
+DEVICEHEIGHTPOINTS=624"
+*End
+*PageSize EnvISOB5/Envelope B5: "%% FoomaticRIPOptionSetting: PageSize=EnvISOB5"
+*FoomaticRIPOptionSetting PageSize=EnvISOB5: " -dDEVICEWIDTHPOINTS=499&&
+ -dDEVICEHEIGHTPOINTS=709"
+*End
+*PageSize EnvMonarch/Envelope Monarch: "%% FoomaticRIPOptionSetting: PageSize=EnvMonarch"
+*FoomaticRIPOptionSetting PageSize=EnvMonarch: " -dDEVICEWIDTHPOINTS=2&&
+79 -dDEVICEHEIGHTPOINTS=540"
+*End
+*PageSize Executive/Executive: "%% FoomaticRIPOptionSetting: PageSize=Executive"
+*FoomaticRIPOptionSetting PageSize=Executive: " -dDEVICEWIDTHPOINTS=52&&
+2 -dDEVICEHEIGHTPOINTS=756"
+*End
+*PageSize FLSA/American Foolscap: "%% FoomaticRIPOptionSetting: PageSize=FLSA"
+*FoomaticRIPOptionSetting PageSize=FLSA: " -dDEVICEWIDTHPOINTS=612 -dD&&
+EVICEHEIGHTPOINTS=936"
+*End
+*PageSize Hagaki/Hagaki: "%% FoomaticRIPOptionSetting: PageSize=Hagaki"
+*FoomaticRIPOptionSetting PageSize=Hagaki: " -dDEVICEWIDTHPOINTS=283 -&&
+dDEVICEHEIGHTPOINTS=420"
+*End
+*PageSize Ledger/Ledger: "%% FoomaticRIPOptionSetting: PageSize=Ledger"
+*FoomaticRIPOptionSetting PageSize=Ledger: " -dDEVICEWIDTHPOINTS=792 -&&
+dDEVICEHEIGHTPOINTS=1224"
+*End
+*PageSize Legal/Legal: "%% FoomaticRIPOptionSetting: PageSize=Legal"
+*FoomaticRIPOptionSetting PageSize=Legal: " -dDEVICEWIDTHPOINTS=612 -d&&
+DEVICEHEIGHTPOINTS=1008"
+*End
+*PageSize Oufuku/Oufuku-Hagaki: "%% FoomaticRIPOptionSetting: PageSize=Oufuku"
+*FoomaticRIPOptionSetting PageSize=Oufuku: " -dDEVICEWIDTHPOINTS=420 -&&
+dDEVICEHEIGHTPOINTS=567"
+*End
+*PageSize SuperB/Super B: "%% FoomaticRIPOptionSetting: PageSize=SuperB"
+*FoomaticRIPOptionSetting PageSize=SuperB: " -dDEVICEWIDTHPOINTS=936 -&&
+dDEVICEHEIGHTPOINTS=1368"
+*End
+*PageSize w558h774/16K: "%% FoomaticRIPOptionSetting: PageSize=w558h774"
+*FoomaticRIPOptionSetting PageSize=w558h774: " -dDEVICEWIDTHPOINTS=558&&
+ -dDEVICEHEIGHTPOINTS=774"
+*End
+*PageSize w612h935/Executive (JIS): "%% FoomaticRIPOptionSetting: PageSize=w612h935"
+*FoomaticRIPOptionSetting PageSize=w612h935: " -dDEVICEWIDTHPOINTS=612&&
+ -dDEVICEHEIGHTPOINTS=935"
+*End
+*PageSize w774h1116/8K: "%% FoomaticRIPOptionSetting: PageSize=w774h1116"
+*FoomaticRIPOptionSetting PageSize=w774h1116: " -dDEVICEWIDTHPOINTS=77&&
+4 -dDEVICEHEIGHTPOINTS=1116"
+*End
+*CloseUI: *PageSize
+
+*OpenUI *PageRegion: PickOne
+*OrderDependency: 105 AnySetup *PageRegion
+*DefaultPageRegion: Letter
+*PageRegion Letter/Letter: "%% FoomaticRIPOptionSetting: PageSize=Letter"
+*PageRegion A4/A4: "%% FoomaticRIPOptionSetting: PageSize=A4"
+*PageRegion Photo/Photo or 4x6 inch index card: "%% FoomaticRIPOptionSetting: PageSize=Photo"
+*PageRegion Photo5x7/Photo or 5x7 inch index card: "%% FoomaticRIPOptionSetting: PageSize=Photo5x7"
+*PageRegion 3x5/3x5 inch index card: "%% FoomaticRIPOptionSetting: PageSize=3x5"
+*PageRegion 5x8/5x8 inch index card: "%% FoomaticRIPOptionSetting: PageSize=5x8"
+*PageRegion A3/A3: "%% FoomaticRIPOptionSetting: PageSize=A3"
+*PageRegion A5/A5: "%% FoomaticRIPOptionSetting: PageSize=A5"
+*PageRegion A6/A6: "%% FoomaticRIPOptionSetting: PageSize=A6"
+*PageRegion B4JIS/B4 (JIS): "%% FoomaticRIPOptionSetting: PageSize=B4JIS"
+*PageRegion B5JIS/B5 (JIS): "%% FoomaticRIPOptionSetting: PageSize=B5JIS"
+*PageRegion Env10/Envelope #10: "%% FoomaticRIPOptionSetting: PageSize=Env10"
+*PageRegion EnvC5/Envelope C5: "%% FoomaticRIPOptionSetting: PageSize=EnvC5"
+*PageRegion EnvC6/Envelope C6: "%% FoomaticRIPOptionSetting: PageSize=EnvC6"
+*PageRegion EnvDL/Envelope DL: "%% FoomaticRIPOptionSetting: PageSize=EnvDL"
+*PageRegion EnvISOB5/Envelope B5: "%% FoomaticRIPOptionSetting: PageSize=EnvISOB5"
+*PageRegion EnvMonarch/Envelope Monarch: "%% FoomaticRIPOptionSetting: PageSize=EnvMonarch"
+*PageRegion Executive/Executive: "%% FoomaticRIPOptionSetting: PageSize=Executive"
+*PageRegion FLSA/American Foolscap: "%% FoomaticRIPOptionSetting: PageSize=FLSA"
+*PageRegion Hagaki/Hagaki: "%% FoomaticRIPOptionSetting: PageSize=Hagaki"
+*PageRegion Ledger/Ledger: "%% FoomaticRIPOptionSetting: PageSize=Ledger"
+*PageRegion Legal/Legal: "%% FoomaticRIPOptionSetting: PageSize=Legal"
+*PageRegion Oufuku/Oufuku-Hagaki: "%% FoomaticRIPOptionSetting: PageSize=Oufuku"
+*PageRegion SuperB/Super B: "%% FoomaticRIPOptionSetting: PageSize=SuperB"
+*PageRegion w558h774/16K: "%% FoomaticRIPOptionSetting: PageSize=w558h774"
+*PageRegion w612h935/Executive (JIS): "%% FoomaticRIPOptionSetting: PageSize=w612h935"
+*PageRegion w774h1116/8K: "%% FoomaticRIPOptionSetting: PageSize=w774h1116"
+*CloseUI: *PageRegion
+
+*DefaultImageableArea: Letter
+*ImageableArea Letter/Letter: "18 14.40 594 777.60"
+*ImageableArea A4/A4: "18 14.40 577 827.60"
+*ImageableArea Photo/Photo or 4x6 inch index card: "18 14.40 270 417.60"
+*ImageableArea Photo5x7/Photo or 5x7 inch index card: "18 14.40 342 489.60"
+*ImageableArea 3x5/3x5 inch index card: "18 14.40 198 345.60"
+*ImageableArea 5x8/5x8 inch index card: "18 14.40 342 561.60"
+*ImageableArea A3/A3: "18 14.40 824 1175.60"
+*ImageableArea A5/A5: "18 14.40 402 580.60"
+*ImageableArea A6/A6: "18 14.40 279 405.60"
+*ImageableArea B4JIS/B4 (JIS): "18 14.40 711 1018.60"
+*ImageableArea B5JIS/B5 (JIS): "18 14.40 498 714.60"
+*ImageableArea Env10/Envelope #10: "18 14.40 279 669.60"
+*ImageableArea EnvC5/Envelope C5: "18 14.40 441 634.60"
+*ImageableArea EnvC6/Envelope C6: "18 14.40 305 444.60"
+*ImageableArea EnvDL/Envelope DL: "18 14.40 294 609.60"
+*ImageableArea EnvISOB5/Envelope B5: "18 14.40 481 694.60"
+*ImageableArea EnvMonarch/Envelope Monarch: "18 14.40 261 525.60"
+*ImageableArea Executive/Executive: "18 14.40 504 741.60"
+*ImageableArea FLSA/American Foolscap: "18 14.40 594 921.60"
+*ImageableArea Hagaki/Hagaki: "18 14.40 265 405.60"
+*ImageableArea Ledger/Ledger: "18 14.40 774 1209.60"
+*ImageableArea Legal/Legal: "18 14.40 594 993.60"
+*ImageableArea Oufuku/Oufuku-Hagaki: "18 14.40 402 552.60"
+*ImageableArea SuperB/Super B: "18 14.40 918 1353.60"
+*ImageableArea w558h774/16K: "18 14.40 540 759.60"
+*ImageableArea w612h935/Executive (JIS): "18 14.40 594 920.60"
+*ImageableArea w774h1116/8K: "18 14.40 756 1101.60"
+
+*DefaultPaperDimension: Letter
+*PaperDimension Letter/Letter: "612 792"
+*PaperDimension A4/A4: "595 842"
+*PaperDimension Photo/Photo or 4x6 inch index card: "288 432"
+*PaperDimension Photo5x7/Photo or 5x7 inch index card: "360 504"
+*PaperDimension 3x5/3x5 inch index card: "216 360"
+*PaperDimension 5x8/5x8 inch index card: "360 576"
+*PaperDimension A3/A3: "842 1190"
+*PaperDimension A5/A5: "420 595"
+*PaperDimension A6/A6: "297 420"
+*PaperDimension B4JIS/B4 (JIS): "729 1033"
+*PaperDimension B5JIS/B5 (JIS): "516 729"
+*PaperDimension Env10/Envelope #10: "297 684"
+*PaperDimension EnvC5/Envelope C5: "459 649"
+*PaperDimension EnvC6/Envelope C6: "323 459"
+*PaperDimension EnvDL/Envelope DL: "312 624"
+*PaperDimension EnvISOB5/Envelope B5: "499 709"
+*PaperDimension EnvMonarch/Envelope Monarch: "279 540"
+*PaperDimension Executive/Executive: "522 756"
+*PaperDimension FLSA/American Foolscap: "612 936"
+*PaperDimension Hagaki/Hagaki: "283 420"
+*PaperDimension Ledger/Ledger: "792 1224"
+*PaperDimension Legal/Legal: "612 1008"
+*PaperDimension Oufuku/Oufuku-Hagaki: "420 567"
+*PaperDimension SuperB/Super B: "936 1368"
+*PaperDimension w558h774/16K: "558 774"
+*PaperDimension w612h935/Executive (JIS): "612 935"
+*PaperDimension w774h1116/8K: "774 1116"
+
+*OpenUI *Duplex/Double-Sided Printing: PickOne
+*FoomaticRIPOption Duplex: enum CmdLine A
+*OrderDependency: 120 AnySetup *Duplex
+*DefaultDuplex: None
+*Duplex DuplexNoTumble/Long Edge (Standard): "%% FoomaticRIPOptionSetting: Duplex=DuplexNoTumble"
+*FoomaticRIPOptionSetting Duplex=DuplexNoTumble: " -dDuplex=true -dTum&&
+ble=false"
+*End
+*Duplex DuplexTumble/Short Edge (Flip): "%% FoomaticRIPOptionSetting: Duplex=DuplexTumble"
+*FoomaticRIPOptionSetting Duplex=DuplexTumble: " -dDuplex=true -dTumbl&&
+e=true"
+*End
+*Duplex None/Off: "%% FoomaticRIPOptionSetting: Duplex=None"
+*FoomaticRIPOptionSetting Duplex=None: " -dDuplex=false"
+*CloseUI: *Duplex
+
+*CloseGroup: General
+
+*OpenGroup: PrintoutMode/Printout Mode
+
+*OpenUI *Quality/Resolution, Quality: PickOne
+*FoomaticRIPOption Quality: enum CmdLine B
+*OrderDependency: 100 AnySetup *Quality
+*DefaultQuality: FromPrintoutMode
+*Quality FromPrintoutMode/Controlled by 'Printout Mode': "%% FoomaticRIPOptionSetting: Quality=@PrintoutMode"
+*Quality 300DraftGrayscaleK/300 dpi, Draft: "%% FoomaticRIPOptionSetting: Quality=300DraftGrayscaleK"
+*FoomaticRIPOptionSetting Quality=300DraftGrayscaleK: " -r300 -sIjsPar&&
+ams=Quality:Quality=1,Quality:ColorMode=0,Quality:MediaType=0,Quality:&&
+PenSet=0"
+*End
+*Quality 300GrayscaleK/300x300 DPI: "%% FoomaticRIPOptionSetting: Quality=300GrayscaleK"
+*FoomaticRIPOptionSetting Quality=300GrayscaleK: " -r300 -sIjsParams=Q&&
+uality:Quality=0,Quality:ColorMode=0,Quality:MediaType=0,Quality:PenSe&&
+t=0"
+*End
+*Quality 600GrayscaleK/600x600 DPI: "%% FoomaticRIPOptionSetting: Quality=600GrayscaleK"
+*FoomaticRIPOptionSetting Quality=600GrayscaleK: " -r600 -sIjsParams=Q&&
+uality:Quality=0,Quality:ColorMode=0,Quality:MediaType=0,Quality:PenSe&&
+t=0"
+*End
+*CloseUI: *Quality
+
+*CloseGroup: PrintoutMode
+
+
+*% Generic boilerplate PPD stuff as standard PostScript fonts and so on
+
+*DefaultFont: Courier
+*Font AvantGarde-Book: Standard "(001.006S)" Standard ROM
+*Font AvantGarde-BookOblique: Standard "(001.006S)" Standard ROM
+*Font AvantGarde-Demi: Standard "(001.007S)" Standard ROM
+*Font AvantGarde-DemiOblique: Standard "(001.007S)" Standard ROM
+*Font Bookman-Demi: Standard "(001.004S)" Standard ROM
+*Font Bookman-DemiItalic: Standard "(001.004S)" Standard ROM
+*Font Bookman-Light: Standard "(001.004S)" Standard ROM
+*Font Bookman-LightItalic: Standard "(001.004S)" Standard ROM
+*Font Courier: Standard "(002.004S)" Standard ROM
+*Font Courier-Bold: Standard "(002.004S)" Standard ROM
+*Font Courier-BoldOblique: Standard "(002.004S)" Standard ROM
+*Font Courier-Oblique: Standard "(002.004S)" Standard ROM
+*Font Helvetica: Standard "(001.006S)" Standard ROM
+*Font Helvetica-Bold: Standard "(001.007S)" Standard ROM
+*Font Helvetica-BoldOblique: Standard "(001.007S)" Standard ROM
+*Font Helvetica-Narrow: Standard "(001.006S)" Standard ROM
+*Font Helvetica-Narrow-Bold: Standard "(001.007S)" Standard ROM
+*Font Helvetica-Narrow-BoldOblique: Standard "(001.007S)" Standard ROM
+*Font Helvetica-Narrow-Oblique: Standard "(001.006S)" Standard ROM
+*Font Helvetica-Oblique: Standard "(001.006S)" Standard ROM
+*Font NewCenturySchlbk-Bold: Standard "(001.009S)" Standard ROM
+*Font NewCenturySchlbk-BoldItalic: Standard "(001.007S)" Standard ROM
+*Font NewCenturySchlbk-Italic: Standard "(001.006S)" Standard ROM
+*Font NewCenturySchlbk-Roman: Standard "(001.007S)" Standard ROM
+*Font Palatino-Bold: Standard "(001.005S)" Standard ROM
+*Font Palatino-BoldItalic: Standard "(001.005S)" Standard ROM
+*Font Palatino-Italic: Standard "(001.005S)" Standard ROM
+*Font Palatino-Roman: Standard "(001.005S)" Standard ROM
+*Font Symbol: Special "(001.007S)" Special ROM
+*Font Times-Bold: Standard "(001.007S)" Standard ROM
+*Font Times-BoldItalic: Standard "(001.009S)" Standard ROM
+*Font Times-Italic: Standard "(001.007S)" Standard ROM
+*Font Times-Roman: Standard "(001.007S)" Standard ROM
+*Font ZapfChancery-MediumItalic: Standard "(001.007S)" Standard ROM
+*Font ZapfDingbats: Special "(001.004S)" Standard ROM
+

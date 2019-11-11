@@ -1,0 +1,343 @@
+*PPD-Adobe: "4.3"
+*%%%% PPD file for HP Officejet 100 Mobile l411 with CUPS.
+*%%%% Created by the CUPS PPD Compiler CUPS v1.7.2.
+*% (c) 2008 Copyright HP Development Company, LP
+*FormatVersion: "4.3"
+*FileVersion: "3.19.10"
+*LanguageVersion: English
+*LanguageEncoding: ISOLatin1
+*PCFileName: "hp-officejet_100_mobile_l411.ppd"
+*Product: "(HP Officejet 100 Mobile l411)"
+*Manufacturer: "HP"
+*ModelName: "HP Officejet 100 Mobile l411"
+*ShortNickName: "HP OJ 100 Mobile l411 hpijs"
+*NickName: "HP Officejet 100 Mobile l411, hpcups 3.19.10"
+*PSVersion: "(3010.000) 0"
+*LanguageLevel: "3"
+*ColorDevice: True
+*DefaultColorSpace: RGB
+*FileSystem: False
+*Throughput: "1"
+*LandscapeOrientation: Plus90
+*TTRasterizer: Type42
+*% Driver-defined attributes...
+*RequiresPageRegion All: True
+*hpPrinterLanguage: "pcl3gui2"
+*HPMechOffset: "70"
+*1284DeviceID: "MFG:HP;MDL:officejet 100 mobile l411;DES:officejet 100 mobile l411;"
+*cupsVersion: 1.7
+*cupsModelNumber: 0
+*cupsManualCopies: True
+*cupsFilter: "application/vnd.cups-raster 0 hpcups"
+*cupsLanguages: "en"
+*UIConstraints: *MediaType Plain *OutputMode Photo
+*UIConstraints: *OutputMode Photo *MediaType Plain
+*UIConstraints: *MediaType Glossy *OutputMode FastDraft
+*UIConstraints: *OutputMode FastDraft *MediaType Glossy
+*UIConstraints: *PageSize PhotoL.FB *MediaType Plain
+*UIConstraints: *MediaType Plain *PageSize PhotoL.FB
+*UIConstraints: *PageSize Photo4x6.FB *MediaType Plain
+*UIConstraints: *MediaType Plain *PageSize Photo4x6.FB
+*UIConstraints: *PageSize Photo4x6tab.FB *MediaType Plain
+*UIConstraints: *MediaType Plain *PageSize Photo4x6tab.FB
+*UIConstraints: *PageSize Photo10x15.FB *MediaType Plain
+*UIConstraints: *MediaType Plain *PageSize Photo10x15.FB
+*UIConstraints: *PageSize Photo10x15tab.FB *MediaType Plain
+*UIConstraints: *MediaType Plain *PageSize Photo10x15tab.FB
+*UIConstraints: *PageSize Photo10x15tab.FB *MediaType Plain
+*UIConstraints: *MediaType Plain *PageSize Photo10x15tab.FB
+*UIConstraints: *PageSize Photo3x5 *MediaType Plain
+*UIConstraints: *MediaType Plain *PageSize Photo3x5
+*UIConstraints: *PageSize PhotoL *MediaType Plain
+*UIConstraints: *MediaType Plain *PageSize PhotoL
+*UIConstraints: *PageSize Photo3.5x5 *MediaType Plain
+*UIConstraints: *MediaType Plain *PageSize Photo3.5x5
+*UIConstraints: *PageSize Photo10x15 *MediaType Plain
+*UIConstraints: *MediaType Plain *PageSize Photo10x15
+*UIConstraints: *PageSize Photo4x6 *MediaType Plain
+*UIConstraints: *MediaType Plain *PageSize Photo4x6
+*UIConstraints: *PageSize Photo4x6tab *MediaType Plain
+*UIConstraints: *MediaType Plain *PageSize Photo4x6tab
+*UIConstraints: *PageSize Photo10x15tab *MediaType Plain
+*UIConstraints: *MediaType Plain *PageSize Photo10x15tab
+*UIConstraints: *PageSize Photo2L *MediaType Plain
+*UIConstraints: *MediaType Plain *PageSize Photo2L
+*UIConstraints: *PageSize Photo13x18 *MediaType Plain
+*UIConstraints: *MediaType Plain *PageSize Photo13x18
+*UIConstraints: *PageSize Photo5x7 *MediaType Plain
+*UIConstraints: *MediaType Plain *PageSize Photo5x7
+*UIConstraints: *PageSize Photo8x10 *MediaType Plain
+*UIConstraints: *MediaType Plain *PageSize Photo8x10
+*UIConstraints: *PageSize Statement *MediaType Glossy
+*UIConstraints: *MediaType Glossy *PageSize Statement
+*UIConstraints: *PageSize A5 *MediaType Glossy
+*UIConstraints: *MediaType Glossy *PageSize A5
+*UIConstraints: *PageSize JB5 *MediaType Glossy
+*UIConstraints: *MediaType Glossy *PageSize JB5
+*UIConstraints: *PageSize Executive *MediaType Glossy
+*UIConstraints: *MediaType Glossy *PageSize Executive
+*UIConstraints: *PageSize A4 *MediaType Glossy
+*UIConstraints: *MediaType Glossy *PageSize A4
+*UIConstraints: *PageSize Letter *MediaType Glossy
+*UIConstraints: *MediaType Glossy *PageSize Letter
+*UIConstraints: *PageSize Legal *MediaType Glossy
+*UIConstraints: *MediaType Glossy *PageSize Legal
+*UIConstraints: *PageSize A6 *MediaType Glossy
+*UIConstraints: *MediaType Glossy *PageSize A6
+*UIConstraints: *PageSize EnvChou4 *MediaType Glossy
+*UIConstraints: *MediaType Glossy *PageSize EnvChou4
+*UIConstraints: *PageSize EnvMonarch *MediaType Glossy
+*UIConstraints: *MediaType Glossy *PageSize EnvMonarch
+*UIConstraints: *PageSize Env10 *MediaType Glossy
+*UIConstraints: *MediaType Glossy *PageSize Env10
+*UIConstraints: *PageSize EnvDL *MediaType Glossy
+*UIConstraints: *MediaType Glossy *PageSize EnvDL
+*UIConstraints: *PageSize EnvA2 *MediaType Glossy
+*UIConstraints: *MediaType Glossy *PageSize EnvA2
+*UIConstraints: *PageSize EnvC6 *MediaType Glossy
+*UIConstraints: *MediaType Glossy *PageSize EnvC6
+*UIConstraints: *PageSize EnvChou3 *MediaType Glossy
+*UIConstraints: *MediaType Glossy *PageSize EnvChou3
+*UIConstraints: *PageSize EnvC5 *MediaType Glossy
+*UIConstraints: *MediaType Glossy *PageSize EnvC5
+*UIConstraints: *PageSize EnvC5 *MediaType Glossy
+*UIConstraints: *MediaType Glossy *PageSize EnvC5
+*UIConstraints: *PageSize Card3x5 *MediaType Glossy
+*UIConstraints: *MediaType Glossy *PageSize Card3x5
+*UIConstraints: *PageSize Card4x6 *MediaType Glossy
+*UIConstraints: *MediaType Glossy *PageSize Card4x6
+*UIConstraints: *PageSize Card5x8 *MediaType Glossy
+*UIConstraints: *MediaType Glossy *PageSize Card5x8
+*UIConstraints: *PageSize 8.5x13 *MediaType Glossy
+*UIConstraints: *MediaType Glossy *PageSize 8.5x13
+*OpenUI *PageSize/Media Size: PickOne
+*OrderDependency: 10 AnySetup *PageSize
+*DefaultPageSize: Letter
+*PageSize Card3x5/Index Card 3x5in: "<</cupsInteger0 78/PageSize [216 360]/ImagingBBox null>>setpagedevice"
+*PageSize Card4x6/Index Card 4x6in: "<</cupsInteger0 74/PageSize [288 432]/ImagingBBox null>>setpagedevice"
+*PageSize PhotoL/Photo L 89x127mm: "<</cupsInteger0 121/PageSize[252 360]/ImagingBBox null>>setpagedevice"
+*PageSize L.FB/Borderless Photo L 89x127mm: "<</cupsInteger0 121/cupsReal0 .118/cupsReal1 .051/PageSize [269 382.38]/ImagingBBox null>>setpagedevice"
+*PageSize Photo3.5x5/Photo 3.5x5in: "<</cupsInteger0 121/PageSize[252 360]/ImagingBBox null>>setpagedevice"
+*PageSize PhotoL.FB/Borderless Photo 3.5x5in: "<</cupsInteger0 121/cupsReal0 .118/cupsReal1 .051/PageSize[269 382.38]/ImagingBBox null>>setpagedevice"
+*PageSize Photo3x5/Photo 3x5in: "<</cupsInteger0 78/PageSize [216 360]/ImagingBBox null>>setpagedevice"
+*PageSize Photo4x6/Photo 4x6in: "<</cupsInteger0 74/PageSize[288 432]/ImagingBBox null>>setpagedevice"
+*PageSize Photo4x6.FB/Borderless Photo 4x6in: "<</cupsInteger0 74/cupsReal0 .091/cupsReal1 .051/PageSize[298.22 455.23]/ImagingBBox null>>setpagedevice"
+*PageSize A6/A6 105x148mm: "<</cupsInteger0 73/PageSize[297.36 419.76]/ImagingBBox null>>setpagedevice"
+*PageSize Photo4x6tab/Photo 4x6in (tab): "<</cupsInteger0 74/PageSize[288 432]/ImagingBBox null>>setpagedevice"
+*PageSize Photo4x6tab.FB/Borderless Photo 4x6in (tab): "<</cupsInteger0 74/cupsReal0 .091/cupsReal1 .051/PageSize[298.22 455.23]/ImagingBBox null>>setpagedevice"
+*PageSize Photo5x7/Photo 5x7in: "<</cupsInteger0 122/PageSize[360 504]/ImagingBBox null>>setpagedevice"
+*PageSize Card5x8/Index Card 5x8in: "<</cupsInteger0 75/PageSize[360 576]/ImagingBBox null>>setpagedevice"
+*PageSize A5/A5 148x210mm: "<</cupsInteger0 25/PageSize[419.76 595.44]/ImagingBBox null>>setpagedevice"
+*PageSize JB5/JB5 182x257mm: "<</cupsInteger0 45/PageSize[516.24 728.64]/ImagingBBox null>>setpagedevice"
+*PageSize Executive/Executive 7.25x10.5in: "<</cupsInteger0 1/PageSize[522 756]/ImagingBBox null>>setpagedevice"
+*PageSize Letter/Letter 8.5x11in: "<</cupsInteger0 2/PageSize[612 792]/ImagingBBox null>>setpagedevice"
+*PageSize A4/A4 210x297mm: "<</cupsInteger0 26/PageSize[595.44 841.68]/ImagingBBox null>>setpagedevice"
+*PageSize Legal/Legal 8.5x14in: "<</cupsInteger0 3/PageSize[612 1008]/ImagingBBox null>>setpagedevice"
+*PageSize Statement/Statement 5.5x8.5in: "<</cupsInteger0 15/PageSize[396 612]/ImagingBBox null>>setpagedevice"
+*PageSize Photo10x15/Photo 10x15cm: "<</cupsInteger0 74/PageSize[288 432]/ImagingBBox null>>setpagedevice"
+*PageSize Photo10x15.FB/Borderless Photo 10x15cm: "<</cupsInteger0 74/cupsReal0 .091/cupsReal1 .051/PageSize[298.22 455.23]/ImagingBBox null>>setpagedevice"
+*PageSize Photo10x15tab/Photo 10x15cm (tab): "<</cupsInteger0 74/PageSize[288 432]/ImagingBBox null>>setpagedevice"
+*PageSize Photo10x15tab.FB/ Borderless Photo 10x15cm (tab): "<</cupsInteger0 74/cupsReal0 .091/cupsReal1 .051/PageSize[298.22 455.23]/ImagingBBox null>>setpagedevice"
+*PageSize Photo2L/Photo 2L 127x178mm: "<</cupsInteger0 122/PageSize[360 504]/ImagingBBox null>>setpagedevice"
+*PageSize Photo13x18/Photo 13x18cm: "<</cupsInteger0 122/PageSize[360 504]/ImagingBBox null>>setpagedevice"
+*PageSize Photo8x10/Photo 8x10in: "<</cupsInteger0 7/PageSize[576 720]/ImagingBBox null>>setpagedevice"
+*PageSize 8.5x13/8.5x13in: "<</cupsInteger0 10/PageSize[612 936]/ImagingBBox null>>setpagedevice"
+*PageSize EnvA2/A2 Envelope 4.37x5.75in: "<</cupsInteger0 109/PageSize[314.64 414]/ImagingBBox null>>setpagedevice"
+*PageSize EnvC6/C6 Envelope 114x162mm: "<</cupsInteger0 92/PageSize[323.28 459.36]/ImagingBBox null>>setpagedevice"
+*PageSize EnvChou4/#4 Japanese Envelope 90x205mm: "<</cupsInteger0 111/PageSize[254.88 581.04]/ImagingBBox null>>setpagedevice"
+*PageSize EnvMonarch/Monarch Envelope 3.875x7.5in: "<</cupsInteger0 80/PageSize[279 540]/ImagingBBox null>>setpagedevice"
+*PageSize EnvDL/DL Envelope 110x220mm: "<</cupsInteger0 90/PageSize[311.76 623.52]/ImagingBBox null>>setpagedevice"
+*PageSize Env10/#10 Envelope 4.12x9.5in: "<</cupsInteger0 81/PageSize[297 684]/ImagingBBox null>>setpagedevice"
+*PageSize EnvChou3/#3 Japanese Envelope 120x235mm: "<</cupsInteger0 110/PageSize[339.84 666]/ImagingBBox null>>setpagedevice"
+*PageSize EnvC5/C5 Envelope 162x229mm: "<</cupsInteger0 91/PageSize[459 649]/ImagingBBox null>>setpagedevice"
+*CloseUI: *PageSize
+*OpenUI *PageRegion/Media Size: PickOne
+*OrderDependency: 10 AnySetup *PageRegion
+*DefaultPageRegion: Letter
+*PageRegion Card3x5/Index Card 3x5in: "<</cupsInteger0 78/PageSize[216 360]/ImagingBBox null>>setpagedevice"
+*PageRegion Card4x6/Index Card 4x6in: "<</cupsInteger0 74/PageSize[288 432]/ImagingBBox null>>setpagedevice"
+*PageRegion PhotoL/Photo L 89x127mm: "<</cupsInteger0 121/PageSize[252 360]/ImagingBBox null>>setpagedevice"
+*PageRegion L.FB/Borderless Photo L 89x127mm: "<</cupsInteger0 121/cupsReal0 .118/cupsReal1 .051/PageSize[269 382.38]/ImagingBBox null>>setpagedevice"
+*PageRegion Photo3.5x5/Photo 3.5x5in: "<</cupsInteger0 121/PageSize[252 360]/ImagingBBox null>>setpagedevice"
+*PageRegion PhotoL.FB/Borderless Photo 3.5x5in: "<</cupsInteger0 121/cupsReal0 .118/cupsReal1 .051/PageSize[269 382.38]/ImagingBBox null>>setpagedevice"
+*PageRegion Photo3x5/Photo 3x5in: "<</cupsInteger0 78/PageSize[216 360]/ImagingBBox null>>setpagedevice"
+*PageRegion Photo4x6/Photo 4x6in: "<</cupsInteger0 74/PageSize[288 432]/ImagingBBox null>>setpagedevice"
+*PageRegion Photo4x6.FB/Borderless Photo 4x6in: "<</cupsInteger0 74/cupsReal0 .091/cupsReal1 .051/PageSize[298.22 455.23]/ImagingBBox null>>setpagedevice"
+*PageRegion A6/A6 105x148mm: "<</cupsInteger0 73/PageSize[297.36 419.76]/ImagingBBox null>>setpagedevice"
+*PageRegion Photo4x6tab/Photo 4x6in (tab): "<</cupsInteger0 74/PageSize[288 432]/ImagingBBox null>>setpagedevice"
+*PageRegion Photo4x6tab.FB/Borderless Photo 4x6in (tab): "<</cupsInteger0 74/cupsReal0 .091/cupsReal1 .051/PageSize[298.22 455.23]/ImagingBBox null>>setpagedevice"
+*PageRegion Photo5x7/Photo 5x7in: "<</cupsInteger0 122/PageSize[360 504]/ImagingBBox null>>setpagedevice"
+*PageRegion Card5x8/Index Card 5x8in: "<</cupsInteger0 75/PageSize[360 576]/ImagingBBox null>>setpagedevice"
+*PageRegion A5/A5 148x210mm: "<</cupsInteger0 25/PageSize[419.76 595.44]/ImagingBBox null>>setpagedevice"
+*PageRegion JB5/JB5 182x257mm: "<</cupsInteger0 45/PageSize [516.24 728.64]/ImagingBBox null>>setpagedevice"
+*PageRegion Executive/Executive 7.25x10.5in: "<</cupsInteger0 1/PageSize[522 756]/ImagingBBox null>>setpagedevice"
+*PageRegion Letter/Letter 8.5x11in: "<</cupsInteger0 2/PageSize[612 792]/ImagingBBox null>>setpagedevice"
+*PageRegion A4/A4 210x297mm: "<</cupsInteger0 26/PageSize[595.44 841.68]/ImagingBBox null>>setpagedevice"
+*PageRegion Legal/Legal 8.5x14in: "<</cupsInteger0 3/PageSize[612 1008]/ImagingBBox null>>setpagedevice"
+*PageRegion Statement/Statement 5.5x8.5in: "<</cupsInteger0 15/PageSize[396 612]/ImagingBBox null>>setpagedevice"
+*PageRegion Photo10x15/Photo 10x15cm: "<</cupsInteger0 74/PageSize[288 432]/ImagingBBox null>>setpagedevice"
+*PageRegion Photo10x15.FB/Borderless Photo 10x15cm: "<</cupsInteger0 74/cupsReal0 .091/cupsReal1 .051/PageSize[298.22 455.23]/ImagingBBox null>>setpagedevice"
+*PageRegion Photo10x15tab/Photo 10x15cm (tab): "<</cupsInteger0 74/PageSize[288 432]/ImagingBBox null>>setpagedevice"
+*PageRegion Photo10x15tab.FB/ Borderless Photo 10x15cm (tab): "<</cupsInteger0 74/cupsReal0 .091/cupsReal1 .051/PageSize[298.22 455.23]/ImagingBBox null>>setpagedevice"
+*PageRegion Photo2L/Photo 2L 127x178mm: "<</cupsInteger0 122/PageSize[360 504]/ImagingBBox null>>setpagedevice"
+*PageRegion Photo13x18/Photo 13x18cm: "<</cupsInteger0 122/PageSize[360 504]/ImagingBBox null>>setpagedevice"
+*PageRegion Photo8x10/Photo 8x10in: "<</cupsInteger0 7/PageSize[576 720]/ImagingBBox null>>setpagedevice"
+*PageRegion 8.5x13/8.5x13in: "<</cupsInteger0 10/PageSize[612 936]/ImagingBBox null>>setpagedevice"
+*PageRegion EnvA2/A2 Envelope 4.37x5.75in: "<</cupsInteger0 109/PageSize[314.64 414]/ImagingBBox null>>setpagedevice"
+*PageRegion EnvC6/C6 Envelope 114x162mm: "<</cupsInteger0 92/PageSize[323.28 459.36]/ImagingBBox null>>setpagedevice"
+*PageRegion EnvChou4/#4 Japanese Envelope 90x205mm: "<</cupsInteger0 111/PageSize[254.88 581.04]/ImagingBBox null>>setpagedevice"
+*PageRegion EnvMonarch/Monarch Envelope 3.875x7.5in: "<</cupsInteger0 80/PageSize[279 540]/ImagingBBox null>>setpagedevice"
+*PageRegion EnvDL/DL Envelope 110x220mm: "<</cupsInteger0 90/PageSize[311.76 623.52]/ImagingBBox null>>setpagedevice"
+*PageRegion Env10/#10 Envelope 4.12x9.5in: "<</cupsInteger0 81/PageSize[297 684]/ImagingBBox null>>setpagedevice"
+*PageRegion EnvChou3/#3 Japanese Envelope 120x235mm: "<</cupsInteger0 110/PageSize[339.84 666]/ImagingBBox null>>setpagedevice"
+*PageRegion EnvC5/C5 Envelope 162x229mm: "<</cupsInteger0 91/PageSize[459 649]/ImagingBBox null>>setpagedevice"
+*CloseUI: *PageRegion
+*DefaultImageableArea: Letter
+*ImageableArea Card3x5/Index Card 3x5in: "5.760000228882 33.840000152588 210.240005493164 351.359985351562"
+*ImageableArea Card4x6/Index Card 4x6in: "5.760000228882 33.840000152588 282.239990234375 423.359985351562"
+*ImageableArea PhotoL/Photo L 89x127mm: "5.760000228882 33.840000152588 246.240005493164 351.359985351562"
+*ImageableArea L.FB/Borderless Photo L 89x127mm: "0 0 269 382.380004882812"
+*ImageableArea Photo3.5x5/Photo 3.5x5in: "5.760000228882 33.840000152588 246.240005493164 351.359985351562"
+*ImageableArea PhotoL.FB/Borderless Photo 3.5x5in: "0 0 269 382.380004882812"
+*ImageableArea Photo3x5/Photo 3x5in: "5.760000228882 33.840000152588 210.240005493164 351.359985351562"
+*ImageableArea Photo4x6/Photo 4x6in: "5.760000228882 33.840000152588 282.239990234375 423.359985351562"
+*ImageableArea Photo4x6.FB/Borderless Photo 4x6in: "0 0 298.220001220703 455.230010986328"
+*ImageableArea A6/A6 105x148mm: "5.760000228882 33.840000152588 291.599975585938 411.119995117188"
+*ImageableArea Photo4x6tab/Photo 4x6in (tab): "5.760000228882 33.840000152588 282.239990234375 423.359985351562"
+*ImageableArea Photo4x6tab.FB/Borderless Photo 4x6in (tab): "0 0 298.220001220703 455.230010986328"
+*ImageableArea Photo5x7/Photo 5x7in: "5.760000228882 33.840000152588 354.239990234375 495.359985351562"
+*ImageableArea Card5x8/Index Card 5x8in: "5.760000228882 33.840000152588 354.239990234375 567.359985351562"
+*ImageableArea A5/A5 148x210mm: "9.359999656677 33.840000152588 410.400024414062 586.799987792969"
+*ImageableArea JB5/JB5 182x257mm: "9.359999656677 33.840000152588 506.880004882812 720"
+*ImageableArea Executive/Executive 7.25x10.5in: "9.359999656677 33.840000152588 512.640014648438 747.359985351562"
+*ImageableArea Letter/Letter 8.5x11in: "18 33.840000152588 594 783.359985351562"
+*ImageableArea A4/A4 210x297mm: "9.359999656677 33.840000152588 586.080017089844 833.039978027344"
+*ImageableArea Legal/Legal 8.5x14in: "18 33.840000152588 594 999.359985351562"
+*ImageableArea Statement/Statement 5.5x8.5in: "9.359999656677 33.840000152588 386.640014648438 603.359985351562"
+*ImageableArea Photo10x15/Photo 10x15cm: "5.760000228882 33.840000152588 282.239990234375 423.359985351562"
+*ImageableArea Photo10x15.FB/Borderless Photo 10x15cm: "0 0 298.220001220703 455.230010986328"
+*ImageableArea Photo10x15tab/Photo 10x15cm (tab): "5.760000228882 33.840000152588 282.239990234375 423.359985351562"
+*ImageableArea Photo10x15tab.FB/ Borderless Photo 10x15cm (tab): "0 0 298.220001220703 455.230010986328"
+*ImageableArea Photo2L/Photo 2L 127x178mm: "5.760000228882 33.840000152588 354.239990234375 495.359985351562"
+*ImageableArea Photo13x18/Photo 13x18cm: "5.760000228882 33.840000152588 354.239990234375 495.359985351562"
+*ImageableArea Photo8x10/Photo 8x10in: "5.760000228882 33.840000152588 570.239990234375 711.359985351562"
+*ImageableArea 8.5x13/8.5x13in: "18 33.840000152588 594 927.359985351562"
+*ImageableArea EnvA2/A2 Envelope 4.37x5.75in: "9.359999656677 40.319999694824 305.280029296875 373.679992675781"
+*ImageableArea EnvC6/C6 Envelope 114x162mm: "9.359999656677 40.319999694824 313.920013427734 419.039978027344"
+*ImageableArea EnvChou4/#4 Japanese Envelope 90x205mm: "9.359999656677 40.319999694824 245.520004272461 540.719970703125"
+*ImageableArea EnvMonarch/Monarch Envelope 3.875x7.5in: "9.359999656677 40.319999694824 269.640014648438 499.679992675781"
+*ImageableArea EnvDL/DL Envelope 110x220mm: "9.359999656677 40.319999694824 302.400024414062 583.200012207031"
+*ImageableArea Env10/#10 Envelope 4.12x9.5in: "9.359999656677 40.319999694824 287.640014648438 643.679992675781"
+*ImageableArea EnvChou3/#3 Japanese Envelope 120x235mm: "9.359999656677 40.319999694824 330.480010986328 625.679992675781"
+*ImageableArea EnvC5/C5 Envelope 162x229mm: "9.359999656677 40.319999694824 449.640014648438 608.679992675781"
+*DefaultPaperDimension: Letter
+*PaperDimension Card3x5/Index Card 3x5in: "216 360"
+*PaperDimension Card4x6/Index Card 4x6in: "288 432"
+*PaperDimension PhotoL/Photo L 89x127mm: "252 360"
+*PaperDimension L.FB/Borderless Photo L 89x127mm: "269 382.380004882812"
+*PaperDimension Photo3.5x5/Photo 3.5x5in: "252 360"
+*PaperDimension PhotoL.FB/Borderless Photo 3.5x5in: "269 382.380004882812"
+*PaperDimension Photo3x5/Photo 3x5in: "216 360"
+*PaperDimension Photo4x6/Photo 4x6in: "288 432"
+*PaperDimension Photo4x6.FB/Borderless Photo 4x6in: "298.220001220703 455.230010986328"
+*PaperDimension A6/A6 105x148mm: "297.359985351562 419.760009765625"
+*PaperDimension Photo4x6tab/Photo 4x6in (tab): "288 432"
+*PaperDimension Photo4x6tab.FB/Borderless Photo 4x6in (tab): "298.220001220703 455.230010986328"
+*PaperDimension Photo5x7/Photo 5x7in: "360 504"
+*PaperDimension Card5x8/Index Card 5x8in: "360 576"
+*PaperDimension A5/A5 148x210mm: "419.760009765625 595.440002441406"
+*PaperDimension JB5/JB5 182x257mm: "516.239990234375 728.640014648438"
+*PaperDimension Executive/Executive 7.25x10.5in: "522 756"
+*PaperDimension Letter/Letter 8.5x11in: "612 792"
+*PaperDimension A4/A4 210x297mm: "595.440002441406 841.679992675781"
+*PaperDimension Legal/Legal 8.5x14in: "612 1008"
+*PaperDimension Statement/Statement 5.5x8.5in: "396 612"
+*PaperDimension Photo10x15/Photo 10x15cm: "288 432"
+*PaperDimension Photo10x15.FB/Borderless Photo 10x15cm: "298.220001220703 455.230010986328"
+*PaperDimension Photo10x15tab/Photo 10x15cm (tab): "288 432"
+*PaperDimension Photo10x15tab.FB/ Borderless Photo 10x15cm (tab): "298.220001220703 455.230010986328"
+*PaperDimension Photo2L/Photo 2L 127x178mm: "360 504"
+*PaperDimension Photo13x18/Photo 13x18cm: "360 504"
+*PaperDimension Photo8x10/Photo 8x10in: "576 720"
+*PaperDimension 8.5x13/8.5x13in: "612 936"
+*PaperDimension EnvA2/A2 Envelope 4.37x5.75in: "314.640014648438 414"
+*PaperDimension EnvC6/C6 Envelope 114x162mm: "323.279998779297 459.359985351562"
+*PaperDimension EnvChou4/#4 Japanese Envelope 90x205mm: "254.880004882812 581.039978027344"
+*PaperDimension EnvMonarch/Monarch Envelope 3.875x7.5in: "279 540"
+*PaperDimension EnvDL/DL Envelope 110x220mm: "311.760009765625 623.52001953125"
+*PaperDimension Env10/#10 Envelope 4.12x9.5in: "297 684"
+*PaperDimension EnvChou3/#3 Japanese Envelope 120x235mm: "339.839996337891 666"
+*PaperDimension EnvC5/C5 Envelope 162x229mm: "459 649"
+*MaxMediaWidth: "612"
+*MaxMediaHeight: "1008"
+*HWMargins: 18 40.319999694824 18 8.640000343323
+*CustomPageSize True: "pop pop pop <</PageSize[5 -2 roll]/ImagingBBox null>>setpagedevice"
+*ParamCustomPageSize Width: 1 points 216 612
+*ParamCustomPageSize Height: 2 points 288 1008
+*ParamCustomPageSize WidthOffset: 3 points 0 0
+*ParamCustomPageSize HeightOffset: 4 points 0 0
+*ParamCustomPageSize Orientation: 5 int 0 0
+*OpenUI *ColorModel/Output Mode: PickOne
+*OrderDependency: 10 AnySetup *ColorModel
+*DefaultColorModel: RGB
+*ColorModel CMYGray/High Quality Grayscale: "<</cupsColorSpace 1/cupsBitsPerColor 8/cupsRowStep 1>>setpagedevice"
+*ColorModel KGray/Black Only Grayscale: "<</cupsColorSpace 1/cupsBitsPerColor 8/cupsRowStep 2>>setpagedevice"
+*ColorModel RGB/Color: "<</cupsColorSpace 1/cupsBitsPerColor 8/cupsRowStep 0>>setpagedevice"
+*CloseUI: *ColorModel
+*OpenUI *MediaType/Media Type: PickOne
+*OrderDependency: 10 AnySetup *MediaType
+*DefaultMediaType: Automatic
+*MediaType Automatic/Automatic: "<</MediaType(Automatic)/cupsMediaType -1>>setpagedevice"
+*MediaType Plain/Plain Paper: "<</MediaType(Plain)/cupsMediaType 0>>setpagedevice"
+*MediaType Glossy/Photo Paper: "<</MediaType(Glossy)/cupsMediaType 3>>setpagedevice"
+*CloseUI: *MediaType
+*OpenUI *OutputMode/Print Quality: PickOne
+*OrderDependency: 10 AnySetup *OutputMode
+*DefaultOutputMode: Normal
+*OutputMode Normal/Normal: "<</OutputType(0)/HWResolution[600 600]>>setpagedevice"
+*OutputMode FastDraft/Fast Draft: "<</OutputType(-2)/HWResolution[300 300]>>setpagedevice"
+*OutputMode Best/Best: "<</OutputType(1)/HWResolution[600 600]>>setpagedevice"
+*OutputMode Photo/High-Resolution Photo: "<</OutputType(2)/HWResolution[1200 1200]>>setpagedevice"
+*CloseUI: *OutputMode
+*OpenUI *InputSlot/Media Source: PickOne
+*OrderDependency: 10 AnySetup *InputSlot
+*DefaultInputSlot: Tray1
+*InputSlot Tray1/Tray 1: "<</MediaPosition 1>>setpagedevice"
+*CloseUI: *InputSlot
+*DefaultFont: Courier
+*Font AvantGarde-Book: Standard "(1.05)" Standard ROM
+*Font AvantGarde-BookOblique: Standard "(1.05)" Standard ROM
+*Font AvantGarde-Demi: Standard "(1.05)" Standard ROM
+*Font AvantGarde-DemiOblique: Standard "(1.05)" Standard ROM
+*Font Bookman-Demi: Standard "(1.05)" Standard ROM
+*Font Bookman-DemiItalic: Standard "(1.05)" Standard ROM
+*Font Bookman-Light: Standard "(1.05)" Standard ROM
+*Font Bookman-LightItalic: Standard "(1.05)" Standard ROM
+*Font Courier: Standard "(1.05)" Standard ROM
+*Font Courier-Bold: Standard "(1.05)" Standard ROM
+*Font Courier-BoldOblique: Standard "(1.05)" Standard ROM
+*Font Courier-Oblique: Standard "(1.05)" Standard ROM
+*Font Helvetica: Standard "(1.05)" Standard ROM
+*Font Helvetica-Bold: Standard "(1.05)" Standard ROM
+*Font Helvetica-BoldOblique: Standard "(1.05)" Standard ROM
+*Font Helvetica-Narrow: Standard "(1.05)" Standard ROM
+*Font Helvetica-Narrow-Bold: Standard "(1.05)" Standard ROM
+*Font Helvetica-Narrow-BoldOblique: Standard "(1.05)" Standard ROM
+*Font Helvetica-Narrow-Oblique: Standard "(1.05)" Standard ROM
+*Font Helvetica-Oblique: Standard "(1.05)" Standard ROM
+*Font NewCenturySchlbk-Bold: Standard "(1.05)" Standard ROM
+*Font NewCenturySchlbk-BoldItalic: Standard "(1.05)" Standard ROM
+*Font NewCenturySchlbk-Italic: Standard "(1.05)" Standard ROM
+*Font NewCenturySchlbk-Roman: Standard "(1.05)" Standard ROM
+*Font Palatino-Bold: Standard "(1.05)" Standard ROM
+*Font Palatino-BoldItalic: Standard "(1.05)" Standard ROM
+*Font Palatino-Italic: Standard "(1.05)" Standard ROM
+*Font Palatino-Roman: Standard "(1.05)" Standard ROM
+*Font Symbol: Special "(001.005)" Special ROM
+*Font Times-Bold: Standard "(1.05)" Standard ROM
+*Font Times-BoldItalic: Standard "(1.05)" Standard ROM
+*Font Times-Italic: Standard "(1.05)" Standard ROM
+*Font Times-Roman: Standard "(1.05)" Standard ROM
+*Font ZapfChancery-MediumItalic: Standard "(1.05)" Standard ROM
+*Font ZapfDingbats: Special "(001.005)" Special ROM
+*% End of hp-officejet_100_mobile_l411.ppd, 24477 bytes.

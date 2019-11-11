@@ -1,0 +1,545 @@
+*PPD-Adobe: "4.3"
+*%
+*% For information on using this, and to obtain the required backend
+*% script, consult http://www.linuxprinting.org/ppd-doc.html
+*%
+*% PPD-O-MATIC generated this PPD file. It is for use with all programs 
+*% and environments which use PPD files for dealing with printer capabilty
+*% information. The printer must be configured with a Foomatic backend
+*% filter script. This file and the backend filter script work together to
+*% support PPD-controlled printer driver option access with arbitrary free 
+*% software printer drivers and printing spoolers.
+*%
+*% You may save this file as 'Epson-EPL-5700L-epl5700lusb.ppd'
+*%
+*%
+*FormatVersion:	"4.3"
+*FileVersion:	"1.1"
+*LanguageVersion: English 
+*LanguageEncoding: ISOLatin1
+*PCFileName:	"EPL5700U.PPD"
+*Manufacturer:	"Epson"
+*Product:	"EPL-5700L"
+*cupsVersion:	1.0
+*cupsManualCopies: True
+*cupsModelNumber:  2
+*cupsFilter:	"application/vnd.cups-postscript 0 cupsomatic"
+*ModelName:     "Epson EPL-5700L-USB, Foomatic + epl5700lusb"
+*NickName:      "Epson EPL-5700L-USB, Foomatic + epl5700lusb"
+*ShortNickName: "Epson EPL-5700U"
+*PSVersion:	"(3010.000) 550"
+*PSVersion:	"(3010.000) 651"
+*PSVersion:	"(3010.000) 652"
+*PSVersion:	"(3010.000) 653"
+*PSVersion:	"(3010.000) 704"
+*PSVersion:	"(3010.000) 705"
+*LanguageLevel:	"3"
+*ColorDevice:	False
+*DefaultColorSpace: Gray
+*FileSystem:	False
+*Throughput:	"1"
+*LandscapeOrientation: Plus90
+*TTRasterizer:	Type42
+
+ 
+*VariablePaperSize: False
+
+
+*OpenUI *PageSize/Page Size: PickOne
+*OrderDependency: 100 AnySetup *PageSize
+*DefaultPageSize: Letter
+*PageSize Letter/US Letter: "<</PageSize[612 792]/ImagingBBox null>>setpagedevice"
+*PageSize A4/A4: "<</PageSize[595 842]/ImagingBBox null>>setpagedevice"
+*PageSize 11x17/11x17: "<</PageSize[792 1224]/ImagingBBox null>>setpagedevice"
+*PageSize A3/A3: "<</PageSize[842 1191]/ImagingBBox null>>setpagedevice"
+*PageSize A5/A5: "<</PageSize[421 595]/ImagingBBox null>>setpagedevice"
+*PageSize B5/B5 (JIS): "<</PageSize[516 729]/ImagingBBox null>>setpagedevice"
+*PageSize Env10/Envelope #10: "<</PageSize[297 684]/ImagingBBox null>>setpagedevice"
+*PageSize EnvC5/Envelope C5: "<</PageSize[459 649]/ImagingBBox null>>setpagedevice"
+*PageSize EnvDL/Envelope DL: "<</PageSize[312 624]/ImagingBBox null>>setpagedevice"
+*PageSize EnvISOB5/Envelope B5: "<</PageSize[499 709]/ImagingBBox null>>setpagedevice"
+*PageSize EnvMonarch/Envelope Monarch: "<</PageSize[279 540]/ImagingBBox null>>setpagedevice"
+*PageSize Executive/Executive: "<</PageSize[522 756]/ImagingBBox null>>setpagedevice"
+*PageSize Legal/US Legal: "<</PageSize[612 1008]/ImagingBBox null>>setpagedevice"
+*CloseUI: *PageSize
+
+*OpenUI *PageRegion: PickOne
+*OrderDependency: 100 AnySetup *PageRegion
+*DefaultPageRegion: Letter
+*PageRegion Letter/US Letter: "<</PageSize[612 792]/ImagingBBox null>>setpagedevice"
+*PageRegion A4/A4: "<</PageSize[595 842]/ImagingBBox null>>setpagedevice"
+*PageRegion 11x17/11x17: "<</PageSize[792 1224]/ImagingBBox null>>setpagedevice"
+*PageRegion A3/A3: "<</PageSize[842 1191]/ImagingBBox null>>setpagedevice"
+*PageRegion A5/A5: "<</PageSize[421 595]/ImagingBBox null>>setpagedevice"
+*PageRegion B5/B5 (JIS): "<</PageSize[516 729]/ImagingBBox null>>setpagedevice"
+*PageRegion Env10/Envelope #10: "<</PageSize[297 684]/ImagingBBox null>>setpagedevice"
+*PageRegion EnvC5/Envelope C5: "<</PageSize[459 649]/ImagingBBox null>>setpagedevice"
+*PageRegion EnvDL/Envelope DL: "<</PageSize[312 624]/ImagingBBox null>>setpagedevice"
+*PageRegion EnvISOB5/Envelope B5: "<</PageSize[499 709]/ImagingBBox null>>setpagedevice"
+*PageRegion EnvMonarch/Envelope Monarch: "<</PageSize[279 540]/ImagingBBox null>>setpagedevice"
+*PageRegion Executive/Executive: "<</PageSize[522 756]/ImagingBBox null>>setpagedevice"
+*PageRegion Legal/US Legal: "<</PageSize[612 1008]/ImagingBBox null>>setpagedevice"
+*CloseUI: *PageRegion
+
+*DefaultImageableArea: Letter
+*ImageableArea Letter/US Letter: "0 0 612 792"
+*ImageableArea A4/A4: "0 0 595 842"
+*ImageableArea 11x17/11x17: "0 0 792 1224"
+*ImageableArea A3/A3: "0 0 842 1191"
+*ImageableArea A5/A5: "0 0 421 595"
+*ImageableArea B5/B5 (JIS): "0 0 516 729"
+*ImageableArea Env10/Envelope #10: "0 0 297 684"
+*ImageableArea EnvC5/Envelope C5: "0 0 459 649"
+*ImageableArea EnvDL/Envelope DL: "0 0 312 624"
+*ImageableArea EnvISOB5/Envelope B5: "0 0 499 709"
+*ImageableArea EnvMonarch/Envelope Monarch: "0 0 279 540"
+*ImageableArea Executive/Executive: "0 0 522 756"
+*ImageableArea Legal/US Legal: "0 0 612 1008"
+
+*DefaultPaperDimension: Letter
+*PaperDimension Letter/US Letter: "612 792"
+*PaperDimension A4/A4: "595 842"
+*PaperDimension 11x17/11x17: "792 1224"
+*PaperDimension A3/A3: "842 1191"
+*PaperDimension A5/A5: "421 595"
+*PaperDimension B5/B5 (JIS): "516 729"
+*PaperDimension Env10/Envelope #10: "297 684"
+*PaperDimension EnvC5/Envelope C5: "459 649"
+*PaperDimension EnvDL/Envelope DL: "312 624"
+*PaperDimension EnvISOB5/Envelope B5: "499 709"
+*PaperDimension EnvMonarch/Envelope Monarch: "279 540"
+*PaperDimension Executive/Executive: "522 756"
+*PaperDimension Legal/US Legal: "612 1008"
+
+*OpenUI *Density/Density: PickOne
+*OrderDependency: 205 AnySetup *Density
+*DefaultDensity: 3
+*Density 1/1: "%% FoomaticOpt: Density=1"
+*Density 2/2: "%% FoomaticOpt: Density=2"
+*Density 3/3: "%% FoomaticOpt: Density=3"
+*Density 4/4: "%% FoomaticOpt: Density=4"
+*Density 5/5: "%% FoomaticOpt: Density=5"
+*CloseUI: *Density
+
+*OpenUI *Dpi/Dpi: PickOne
+*OrderDependency: 200 AnySetup *Dpi
+*DefaultDpi: 600
+*Dpi 300/300: "%% FoomaticOpt: Dpi=300"
+*Dpi 600/600: "%% FoomaticOpt: Dpi=600"
+*Dpi Class600/Class600: "%% FoomaticOpt: Dpi=Class600"
+*Dpi Class1200/Class1200: "%% FoomaticOpt: Dpi=Class1200"
+*CloseUI: *Dpi
+
+*OpenUI *Ritech/Ritech: PickOne
+*OrderDependency: 210 AnySetup *Ritech
+*DefaultRitech: On
+*Ritech Off/Off: "%% FoomaticOpt: Ritech=Off"
+*Ritech On/On: "%% FoomaticOpt: Ritech=On"
+*CloseUI: *Ritech
+
+*OpenUI *TonerSave/TonerSave: PickOne
+*OrderDependency: 215 AnySetup *TonerSave
+*DefaultTonerSave: Off
+*TonerSave Off/Off: "%% FoomaticOpt: TonerSave=Off"
+*TonerSave On/On: "%% FoomaticOpt: TonerSave=On"
+*CloseUI: *TonerSave
+
+
+*% Generic boilerplate PPD stuff as standard PostScript fonts and so on
+
+
+
+*DefaultFont: Courier
+*Font AvantGarde-Book: Standard "(001.006S)" Standard ROM
+*Font AvantGarde-BookOblique: Standard "(001.006S)" Standard ROM
+*Font AvantGarde-Demi: Standard "(001.007S)" Standard ROM
+*Font AvantGarde-DemiOblique: Standard "(001.007S)" Standard ROM
+*Font Bookman-Demi: Standard "(001.004S)" Standard ROM
+*Font Bookman-DemiItalic: Standard "(001.004S)" Standard ROM
+*Font Bookman-Light: Standard "(001.004S)" Standard ROM
+*Font Bookman-LightItalic: Standard "(001.004S)" Standard ROM
+*Font Courier: Standard "(002.004S)" Standard ROM
+*Font Courier-Bold: Standard "(002.004S)" Standard ROM
+*Font Courier-BoldOblique: Standard "(002.004S)" Standard ROM
+*Font Courier-Oblique: Standard "(002.004S)" Standard ROM
+*Font Helvetica: Standard "(001.006S)" Standard ROM
+*Font Helvetica-Bold: Standard "(001.007S)" Standard ROM
+*Font Helvetica-BoldOblique: Standard "(001.007S)" Standard ROM
+*Font Helvetica-Narrow: Standard "(001.006S)" Standard ROM
+*Font Helvetica-Narrow-Bold: Standard "(001.007S)" Standard ROM
+*Font Helvetica-Narrow-BoldOblique: Standard "(001.007S)" Standard ROM
+*Font Helvetica-Narrow-Oblique: Standard "(001.006S)" Standard ROM
+*Font Helvetica-Oblique: Standard "(001.006S)" Standard ROM
+*Font NewCenturySchlbk-Bold: Standard "(001.009S)" Standard ROM
+*Font NewCenturySchlbk-BoldItalic: Standard "(001.007S)" Standard ROM
+*Font NewCenturySchlbk-Italic: Standard "(001.006S)" Standard ROM
+*Font NewCenturySchlbk-Roman: Standard "(001.007S)" Standard ROM
+*Font Palatino-Bold: Standard "(001.005S)" Standard ROM
+*Font Palatino-BoldItalic: Standard "(001.005S)" Standard ROM
+*Font Palatino-Italic: Standard "(001.005S)" Standard ROM
+*Font Palatino-Roman: Standard "(001.005S)" Standard ROM
+*Font Symbol: Special "(001.007S)" Special ROM
+*Font Times-Bold: Standard "(001.007S)" Standard ROM
+*Font Times-BoldItalic: Standard "(001.009S)" Standard ROM
+*Font Times-Italic: Standard "(001.007S)" Standard ROM
+*Font Times-Roman: Standard "(001.007S)" Standard ROM
+*Font ZapfChancery-MediumItalic: Standard "(001.007S)" Standard ROM
+*Font ZapfDingbats: Special "(001.004S)" Standard ROM
+
+*% What follows is a dumped representation of the internal Perl data
+*% structure representing one entry in the Linux Printing Database.
+*% This can be used by frontends to give advanced features which are
+*% beyond the possibilities which can be defined by Adobe-compliant PPDs.
+*% The lines are comment lines, so that programs which require 
+*% Adobe-compliant PPD files can handle this file. They simply ignore
+*% this additional information.
+*%
+*% COMDATA #$VAR1 = {
+*% COMDATA #  'pnp_cmd' => undef,
+*% COMDATA #  'model' => 'EPL-5700L',
+*% COMDATA #  'maxspot' => 'Z',
+*% COMDATA #  'pnp_mdl' => undef,
+*% COMDATA #  'url' => 'http://sourceforge.net/projects/epsonepl/',
+*% COMDATA #  'id' => 'Epson-EPL-5700L',
+*% COMDATA #  'compiled-at' => 'Wed Jan 29 13:26:58 2003',
+*% COMDATA #  'snmp_mfg' => undef,
+*% COMDATA #  'cmd' => 'gs -q -dBATCH -dSAFER -dNOPAUSE -sProcessColorModel=DeviceGray -dBitsPerSample=1 -sDEVICE=ijs %A %Z -sIjsServer=ijs_server_epsonepl -dIjsUseOutputFD -sDeviceManufacturer=Epson -sDeviceModel=EPL5700L -sIjsParams="USB=on,%B" -sOutputFile=- -',
+*% COMDATA #  'pjl' => undef,
+*% COMDATA #  'type' => 'G',
+*% COMDATA #  'par_cmd' => undef,
+*% COMDATA #  'pcmodel' => undef,
+*% COMDATA #  'usb_cmd' => undef,
+*% COMDATA #  'par_des' => undef,
+*% COMDATA #  'args' => [
+*% COMDATA #    {
+*% COMDATA #      'proto' => '<</PageSize[%s]/ImagingBBox null>>setpagedevice',
+*% COMDATA #      'style' => 'G',
+*% COMDATA #      'name' => 'PageSize',
+*% COMDATA #      'default' => 'Letter',
+*% COMDATA #      'vals' => [
+*% COMDATA #        {
+*% COMDATA #          'comment' => 'US Letter',
+*% COMDATA #          'value' => 'Letter',
+*% COMDATA #          'driverval' => '612 792',
+*% COMDATA #          'idx' => 'ev/1'
+*% COMDATA #        },
+*% COMDATA #        {
+*% COMDATA #          'comment' => 'A4',
+*% COMDATA #          'value' => 'A4',
+*% COMDATA #          'driverval' => '595 842',
+*% COMDATA #          'idx' => 'ev/3'
+*% COMDATA #        },
+*% COMDATA #        {
+*% COMDATA #          'comment' => '11x17',
+*% COMDATA #          'value' => '11x17',
+*% COMDATA #          'driverval' => '792 1224',
+*% COMDATA #          'idx' => 'ev/880'
+*% COMDATA #        },
+*% COMDATA #        {
+*% COMDATA #          'comment' => 'A3',
+*% COMDATA #          'value' => 'A3',
+*% COMDATA #          'driverval' => '842 1191',
+*% COMDATA #          'idx' => 'ev/115'
+*% COMDATA #        },
+*% COMDATA #        {
+*% COMDATA #          'comment' => 'A5',
+*% COMDATA #          'value' => 'A5',
+*% COMDATA #          'driverval' => '421 595',
+*% COMDATA #          'idx' => 'ev/896'
+*% COMDATA #        },
+*% COMDATA #        {
+*% COMDATA #          'comment' => 'B5 (JIS)',
+*% COMDATA #          'value' => 'B5',
+*% COMDATA #          'driverval' => '516 729',
+*% COMDATA #          'idx' => 'ev/897'
+*% COMDATA #        },
+*% COMDATA #        {
+*% COMDATA #          'comment' => 'Envelope #10',
+*% COMDATA #          'value' => 'Env10',
+*% COMDATA #          'driverval' => '297 684',
+*% COMDATA #          'idx' => 'ev/899'
+*% COMDATA #        },
+*% COMDATA #        {
+*% COMDATA #          'comment' => 'Envelope C5',
+*% COMDATA #          'value' => 'EnvC5',
+*% COMDATA #          'driverval' => '459 649',
+*% COMDATA #          'idx' => 'ev/900'
+*% COMDATA #        },
+*% COMDATA #        {
+*% COMDATA #          'comment' => 'Envelope DL',
+*% COMDATA #          'value' => 'EnvDL',
+*% COMDATA #          'driverval' => '312 624',
+*% COMDATA #          'idx' => 'ev/901'
+*% COMDATA #        },
+*% COMDATA #        {
+*% COMDATA #          'comment' => 'Envelope B5',
+*% COMDATA #          'value' => 'EnvISOB5',
+*% COMDATA #          'driverval' => '499 709',
+*% COMDATA #          'idx' => 'ev/898'
+*% COMDATA #        },
+*% COMDATA #        {
+*% COMDATA #          'comment' => 'Envelope Monarch',
+*% COMDATA #          'value' => 'EnvMonarch',
+*% COMDATA #          'driverval' => '279 540',
+*% COMDATA #          'idx' => 'ev/902'
+*% COMDATA #        },
+*% COMDATA #        {
+*% COMDATA #          'comment' => 'Executive',
+*% COMDATA #          'value' => 'Executive',
+*% COMDATA #          'driverval' => '522 756',
+*% COMDATA #          'idx' => 'ev/895'
+*% COMDATA #        },
+*% COMDATA #        {
+*% COMDATA #          'comment' => 'US Legal',
+*% COMDATA #          'value' => 'Legal',
+*% COMDATA #          'driverval' => '612 1008',
+*% COMDATA #          'idx' => 'ev/2'
+*% COMDATA #        }
+*% COMDATA #      ],
+*% COMDATA #      'spot' => 'Z',
+*% COMDATA #      'comment' => 'Page Size',
+*% COMDATA #      'order' => '100',
+*% COMDATA #      'vals_byname' => {
+*% COMDATA #        'EnvMonarch' => {},
+*% COMDATA #        'A3' => {},
+*% COMDATA #        'EnvDL' => {},
+*% COMDATA #        'Letter' => {},
+*% COMDATA #        'EnvC5' => {},
+*% COMDATA #        'Env10' => {},
+*% COMDATA #        'EnvISOB5' => {},
+*% COMDATA #        'A5' => {},
+*% COMDATA #        'A4' => {},
+*% COMDATA #        'Legal' => {},
+*% COMDATA #        '11x17' => {},
+*% COMDATA #        'B5' => {},
+*% COMDATA #        'Executive' => {}
+*% COMDATA #      },
+*% COMDATA #      'idx' => 'opt/2',
+*% COMDATA #      'type' => 'enum'
+*% COMDATA #    },
+*% COMDATA #    {
+*% COMDATA #      'proto' => 'EplDensity=%s,',
+*% COMDATA #      'style' => 'C',
+*% COMDATA #      'name' => 'Density',
+*% COMDATA #      'default' => '3',
+*% COMDATA #      'vals' => [
+*% COMDATA #        {
+*% COMDATA #          'comment' => '1',
+*% COMDATA #          'value' => '1',
+*% COMDATA #          'driverval' => '1',
+*% COMDATA #          'idx' => 'ev/1001'
+*% COMDATA #        },
+*% COMDATA #        {
+*% COMDATA #          'comment' => '2',
+*% COMDATA #          'value' => '2',
+*% COMDATA #          'driverval' => '2',
+*% COMDATA #          'idx' => 'ev/1002'
+*% COMDATA #        },
+*% COMDATA #        {
+*% COMDATA #          'comment' => '3',
+*% COMDATA #          'value' => '3',
+*% COMDATA #          'driverval' => '3',
+*% COMDATA #          'idx' => 'ev/1003'
+*% COMDATA #        },
+*% COMDATA #        {
+*% COMDATA #          'comment' => '4',
+*% COMDATA #          'value' => '4',
+*% COMDATA #          'driverval' => '4',
+*% COMDATA #          'idx' => 'ev/1004'
+*% COMDATA #        },
+*% COMDATA #        {
+*% COMDATA #          'comment' => '5',
+*% COMDATA #          'value' => '5',
+*% COMDATA #          'driverval' => '5',
+*% COMDATA #          'idx' => 'ev/1005'
+*% COMDATA #        }
+*% COMDATA #      ],
+*% COMDATA #      'spot' => 'B',
+*% COMDATA #      'comment' => 'Density',
+*% COMDATA #      'order' => '205',
+*% COMDATA #      'vals_byname' => {
+*% COMDATA #        '4' => {},
+*% COMDATA #        '1' => {},
+*% COMDATA #        '3' => {},
+*% COMDATA #        '2' => {},
+*% COMDATA #        '5' => {}
+*% COMDATA #      },
+*% COMDATA #      'idx' => 'opt/epsonepl-Density',
+*% COMDATA #      'type' => 'enum'
+*% COMDATA #    },
+*% COMDATA #    {
+*% COMDATA #      'proto' => 'EplDpi=%s,',
+*% COMDATA #      'style' => 'C',
+*% COMDATA #      'name' => 'Dpi',
+*% COMDATA #      'default' => '600',
+*% COMDATA #      'vals' => [
+*% COMDATA #        {
+*% COMDATA #          'comment' => '300',
+*% COMDATA #          'value' => '300',
+*% COMDATA #          'driverval' => '300',
+*% COMDATA #          'idx' => 'ev/1000'
+*% COMDATA #        },
+*% COMDATA #        {
+*% COMDATA #          'comment' => '600',
+*% COMDATA #          'value' => '600',
+*% COMDATA #          'driverval' => '600',
+*% COMDATA #          'idx' => 'ev/1002'
+*% COMDATA #        },
+*% COMDATA #        {
+*% COMDATA #          'comment' => 'Class600',
+*% COMDATA #          'value' => 'Class600',
+*% COMDATA #          'driverval' => 'Class600',
+*% COMDATA #          'idx' => 'ev/1001'
+*% COMDATA #        },
+*% COMDATA #        {
+*% COMDATA #          'comment' => 'Class1200',
+*% COMDATA #          'value' => 'Class1200',
+*% COMDATA #          'driverval' => 'Class1200',
+*% COMDATA #          'idx' => 'ev/1003'
+*% COMDATA #        }
+*% COMDATA #      ],
+*% COMDATA #      'spot' => 'B',
+*% COMDATA #      'comment' => 'Dpi',
+*% COMDATA #      'order' => '200',
+*% COMDATA #      'vals_byname' => {
+*% COMDATA #        'Class600' => {},
+*% COMDATA #        'Class1200' => {},
+*% COMDATA #        '600' => {},
+*% COMDATA #        '300' => {}
+*% COMDATA #      },
+*% COMDATA #      'idx' => 'opt/epsonepl-Dpi',
+*% COMDATA #      'type' => 'enum'
+*% COMDATA #    },
+*% COMDATA #    {
+*% COMDATA #      'proto' => 'EplRitech=%s,',
+*% COMDATA #      'style' => 'C',
+*% COMDATA #      'name' => 'Ritech',
+*% COMDATA #      'default' => 'On',
+*% COMDATA #      'vals' => [
+*% COMDATA #        {
+*% COMDATA #          'comment' => 'Off',
+*% COMDATA #          'value' => 'Off',
+*% COMDATA #          'driverval' => 'off',
+*% COMDATA #          'idx' => 'ev/1000'
+*% COMDATA #        },
+*% COMDATA #        {
+*% COMDATA #          'comment' => 'On',
+*% COMDATA #          'value' => 'On',
+*% COMDATA #          'driverval' => 'on',
+*% COMDATA #          'idx' => 'ev/1001'
+*% COMDATA #        }
+*% COMDATA #      ],
+*% COMDATA #      'spot' => 'B',
+*% COMDATA #      'comment' => 'Ritech',
+*% COMDATA #      'order' => '210',
+*% COMDATA #      'vals_byname' => {
+*% COMDATA #        'Off' => {},
+*% COMDATA #        'On' => {}
+*% COMDATA #      },
+*% COMDATA #      'idx' => 'opt/epsonepl-Ritech',
+*% COMDATA #      'type' => 'enum'
+*% COMDATA #    },
+*% COMDATA #    {
+*% COMDATA #      'proto' => 'EplTonerSave=%s,',
+*% COMDATA #      'style' => 'C',
+*% COMDATA #      'name' => 'TonerSave',
+*% COMDATA #      'default' => 'Off',
+*% COMDATA #      'vals' => [
+*% COMDATA #        {
+*% COMDATA #          'comment' => 'Off',
+*% COMDATA #          'value' => 'Off',
+*% COMDATA #          'driverval' => 'off',
+*% COMDATA #          'idx' => 'ev/1000'
+*% COMDATA #        },
+*% COMDATA #        {
+*% COMDATA #          'comment' => 'On',
+*% COMDATA #          'value' => 'On',
+*% COMDATA #          'driverval' => 'on',
+*% COMDATA #          'idx' => 'ev/1001'
+*% COMDATA #        }
+*% COMDATA #      ],
+*% COMDATA #      'spot' => 'B',
+*% COMDATA #      'comment' => 'TonerSave',
+*% COMDATA #      'order' => '215',
+*% COMDATA #      'vals_byname' => {
+*% COMDATA #        'Off' => {},
+*% COMDATA #        'On' => {}
+*% COMDATA #      },
+*% COMDATA #      'idx' => 'opt/epsonepl-TonerSave',
+*% COMDATA #      'type' => 'enum'
+*% COMDATA #    }
+*% COMDATA #  ],
+*% COMDATA #  'compiled-by' => 'root@P400',
+*% COMDATA #  'par_mdl' => undef,
+*% COMDATA #  'color' => 0,
+*% COMDATA #  'timestamp' => 1043843218,
+*% COMDATA #  'snmp_des' => undef,
+*% COMDATA #  'pnp_des' => undef,
+*% COMDATA #  'snmp_cmd' => undef,
+*% COMDATA #  'usb_mfg' => undef,
+*% COMDATA #  'make' => 'Epson',
+*% COMDATA #  'usb_des' => undef,
+*% COMDATA #  'snmp_mdl' => undef,
+*% COMDATA #  'drivernopjl' => 0,
+*% COMDATA #  'args_byname' => {
+*% COMDATA #    'PageSize' => {},
+*% COMDATA #    'Ritech' => {},
+*% COMDATA #    'Density' => {},
+*% COMDATA #    'TonerSave' => {},
+*% COMDATA #    'Dpi' => {}
+*% COMDATA #  },
+*% COMDATA #  'ascii' => 0,
+*% COMDATA #  'pcdriver' => undef,
+*% COMDATA #  'comment' => '
+*% COMDATA #
+*% COMDATA #    This printer doesn\'t understand PCL 5e, PCL 6,
+*% COMDATA #    PostScript and so it doesn\'t work with standard drivers;
+*% COMDATA #    it can only be driven through a proprietary language.
+*% COMDATA #
+*% COMDATA #    An independent driver was developed in the
+*% COMDATA #    <a href="http://sourceforge.net/projects/epsonepl/">
+*% COMDATA #    epsonepl</a>project.<p>
+*% COMDATA #
+*% COMDATA #    The driver is IJS based, GNU ghostscript 6.53 onwards or AFPL 
+*% COMDATA #    ghostscript 7.04 onwards is required.
+*% COMDATA #
+*% COMDATA #    This project is not endorsed by nor affiliated with Epson.
+*% COMDATA #
+*% COMDATA #  ',
+*% COMDATA #  'par_mfg' => undef,
+*% COMDATA #  'pnp_mfg' => undef,
+*% COMDATA #  'usb_mdl' => undef,
+*% COMDATA #  'driver' => 'epl5700l'
+*% COMDATA #};
+*% COMDATA #$VAR1->{'args'}[0]{'vals_byname'}{'EnvMonarch'} = $VAR1->{'args'}[0]{'vals'}[10];
+*% COMDATA #$VAR1->{'args'}[0]{'vals_byname'}{'A3'} = $VAR1->{'args'}[0]{'vals'}[3];
+*% COMDATA #$VAR1->{'args'}[0]{'vals_byname'}{'EnvDL'} = $VAR1->{'args'}[0]{'vals'}[8];
+*% COMDATA #$VAR1->{'args'}[0]{'vals_byname'}{'Letter'} = $VAR1->{'args'}[0]{'vals'}[0];
+*% COMDATA #$VAR1->{'args'}[0]{'vals_byname'}{'EnvC5'} = $VAR1->{'args'}[0]{'vals'}[7];
+*% COMDATA #$VAR1->{'args'}[0]{'vals_byname'}{'Env10'} = $VAR1->{'args'}[0]{'vals'}[6];
+*% COMDATA #$VAR1->{'args'}[0]{'vals_byname'}{'EnvISOB5'} = $VAR1->{'args'}[0]{'vals'}[9];
+*% COMDATA #$VAR1->{'args'}[0]{'vals_byname'}{'A5'} = $VAR1->{'args'}[0]{'vals'}[4];
+*% COMDATA #$VAR1->{'args'}[0]{'vals_byname'}{'A4'} = $VAR1->{'args'}[0]{'vals'}[1];
+*% COMDATA #$VAR1->{'args'}[0]{'vals_byname'}{'Legal'} = $VAR1->{'args'}[0]{'vals'}[12];
+*% COMDATA #$VAR1->{'args'}[0]{'vals_byname'}{'11x17'} = $VAR1->{'args'}[0]{'vals'}[2];
+*% COMDATA #$VAR1->{'args'}[0]{'vals_byname'}{'B5'} = $VAR1->{'args'}[0]{'vals'}[5];
+*% COMDATA #$VAR1->{'args'}[0]{'vals_byname'}{'Executive'} = $VAR1->{'args'}[0]{'vals'}[11];
+*% COMDATA #$VAR1->{'args'}[1]{'vals_byname'}{'4'} = $VAR1->{'args'}[1]{'vals'}[3];
+*% COMDATA #$VAR1->{'args'}[1]{'vals_byname'}{'1'} = $VAR1->{'args'}[1]{'vals'}[0];
+*% COMDATA #$VAR1->{'args'}[1]{'vals_byname'}{'3'} = $VAR1->{'args'}[1]{'vals'}[2];
+*% COMDATA #$VAR1->{'args'}[1]{'vals_byname'}{'2'} = $VAR1->{'args'}[1]{'vals'}[1];
+*% COMDATA #$VAR1->{'args'}[1]{'vals_byname'}{'5'} = $VAR1->{'args'}[1]{'vals'}[4];
+*% COMDATA #$VAR1->{'args'}[2]{'vals_byname'}{'Class600'} = $VAR1->{'args'}[2]{'vals'}[2];
+*% COMDATA #$VAR1->{'args'}[2]{'vals_byname'}{'Class1200'} = $VAR1->{'args'}[2]{'vals'}[3];
+*% COMDATA #$VAR1->{'args'}[2]{'vals_byname'}{'600'} = $VAR1->{'args'}[2]{'vals'}[1];
+*% COMDATA #$VAR1->{'args'}[2]{'vals_byname'}{'300'} = $VAR1->{'args'}[2]{'vals'}[0];
+*% COMDATA #$VAR1->{'args'}[3]{'vals_byname'}{'Off'} = $VAR1->{'args'}[3]{'vals'}[0];
+*% COMDATA #$VAR1->{'args'}[3]{'vals_byname'}{'On'} = $VAR1->{'args'}[3]{'vals'}[1];
+*% COMDATA #$VAR1->{'args'}[4]{'vals_byname'}{'Off'} = $VAR1->{'args'}[4]{'vals'}[0];
+*% COMDATA #$VAR1->{'args'}[4]{'vals_byname'}{'On'} = $VAR1->{'args'}[4]{'vals'}[1];
+*% COMDATA #$VAR1->{'args_byname'}{'PageSize'} = $VAR1->{'args'}[0];
+*% COMDATA #$VAR1->{'args_byname'}{'Ritech'} = $VAR1->{'args'}[3];
+*% COMDATA #$VAR1->{'args_byname'}{'Density'} = $VAR1->{'args'}[1];
+*% COMDATA #$VAR1->{'args_byname'}{'TonerSave'} = $VAR1->{'args'}[4];
+*% COMDATA #$VAR1->{'args_byname'}{'Dpi'} = $VAR1->{'args'}[2];
+

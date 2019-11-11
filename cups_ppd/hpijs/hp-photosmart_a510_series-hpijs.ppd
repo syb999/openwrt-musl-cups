@@ -1,0 +1,207 @@
+*PPD-Adobe: "4.3"
+*%%%% PPD file for HP Photosmart a510 Series hpijs with CUPS.
+*%%%% Created by the CUPS PPD Compiler CUPS v1.7.2.
+*% (c) 2004-2008 Copyright HP Development Company, LP
+*FormatVersion: "4.3"
+*FileVersion: "hpijs 3.19.10"
+*LanguageVersion: English
+*LanguageEncoding: ISOLatin1
+*PCFileName: "hp-photosmart_a510_series-hpijs.ppd"
+*Product: "(HP Photosmart a510 Compact Photo Printer)"
+*Product: "(HP Photosmart a512 Compact Photo Printer)"
+*Product: "(HP Photosmart a516 Compact Photo Printer)"
+*Manufacturer: "HP"
+*ModelName: "HP Photosmart a510 Series hpijs"
+*ShortNickName: "HP Photosmart a510 Series hpijs"
+*NickName: "HP Photosmart a510 Series hpijs, 3.19.10"
+*PSVersion: "(3010.000) 0"
+*LanguageLevel: "3"
+*ColorDevice: True
+*DefaultColorSpace: RGB
+*FileSystem: False
+*Throughput: "1"
+*LandscapeOrientation: Plus90
+*TTRasterizer: Type42
+*% Driver-defined attributes...
+*DefaultResolution: 1200dpi
+*FoomaticRIPOptionSetting PageSize=Custom: " -dDEVICEWIDTHPOINTS=0 -dD&&
+EVICEHEIGHTPOINTS=0"
+*End
+*FoomaticIDs: "HP-PhotoSmart_320 hpijs"
+*FoomaticRIPCommandLine: "gs -q -dBATCH -dPARANOIDSAFER -dQUIET -dNOPA&&
+USE -sDEVICE=ijs -sIjsServer=hpijs%A%B%C -dIjsUseOutputFD%Z -sOutputFi&&
+le=- -"
+*End
+*FoomaticRIPOption Model: "enum CmdLine A 100"
+*FoomaticRIPOptionSetting Model=HP-PhotoSmart_320: " -sDeviceManufactu&&
+rer=&quot;HEWLETT-PACKARD&quot; -sDeviceModel=&quot;deskjet 5600&quot;&&
+"
+*End
+*FoomaticRIPOption PrintoutMode: "enum Composite B"
+*FoomaticRIPOptionSetting PrintoutMode=Normal: "Quality=300ColorCMYKFu&&
+llBleed"
+*End
+*FoomaticRIPOptionSetting PrintoutMode=High: "Quality=600ColorCMYKFull&&
+Bleed"
+*End
+*FoomaticRIPOptionSetting PrintoutMode=Photo: "Quality=1200PhotoCMYKFu&&
+llBleed"
+*End
+*FoomaticRIPOption PageSize: "enum CmdLine A"
+*FoomaticRIPOptionSetting PageSize=Photo: " -dDEVICEWIDTHPOINTS=288 -d&&
+DEVICEHEIGHTPOINTS=432"
+*End
+*FoomaticRIPOptionSetting PageSize=PhotoTearOff: " -dDEVICEWIDTHPOINTS&&
+=288 -dDEVICEHEIGHTPOINTS=432"
+*End
+*FoomaticRIPOptionSetting PageSize=3x5: " -dDEVICEWIDTHPOINTS=216 -dDE&&
+VICEHEIGHTPOINTS=360"
+*End
+*FoomaticRIPOptionSetting PageSize=A6: " -dDEVICEWIDTHPOINTS=297 -dDEV&&
+ICEHEIGHTPOINTS=420"
+*End
+*FoomaticRIPOptionSetting PageSize=A6TearOff: " -dDEVICEWIDTHPOINTS=29&&
+7 -dDEVICEHEIGHTPOINTS=420"
+*End
+*FoomaticRIPOptionSetting PageSize=CDDVD80: " -dDEVICEWIDTHPOINTS=237 &&
+-dDEVICEHEIGHTPOINTS=237"
+*End
+*FoomaticRIPOptionSetting PageSize=Hagaki: " -dDEVICEWIDTHPOINTS=283 -&&
+dDEVICEHEIGHTPOINTS=420"
+*End
+*FoomaticRIPOption Quality: "enum CmdLine B"
+*FoomaticRIPOptionSetting Quality=300ColorCMY: " -r300 -sIjsParams=Qua&&
+lity:Quality=0,Quality:ColorMode=2,Quality:MediaType=0,Quality:PenSet=&&
+1"
+*End
+*FoomaticRIPOptionSetting Quality=300ColorCMYFullBleed: " -r300 -sIjsP&&
+arams=Quality:Quality=0,Quality:ColorMode=2,Quality:MediaType=0,Qualit&&
+y:PenSet=1,Quality:FullBleed=1"
+*End
+*FoomaticRIPOptionSetting Quality=600ColorCMY: " -r600 -sIjsParams=Qua&&
+lity:Quality=0,Quality:ColorMode=2,Quality:MediaType=0,Quality:PenSet=&&
+1"
+*End
+*FoomaticRIPOptionSetting Quality=600ColorCMYFullBleed: " -r600 -sIjsP&&
+arams=Quality:Quality=0,Quality:ColorMode=2,Quality:MediaType=0,Qualit&&
+y:PenSet=1,Quality:FullBleed=1"
+*End
+*FoomaticRIPOptionSetting Quality=1200PhotoCMY: " -r1200 -sIjsParams=Q&&
+uality:Quality=3,Quality:ColorMode=2,Quality:MediaType=2,Quality:PenSe&&
+t=1"
+*End
+*FoomaticRIPOptionSetting Quality=1200PhotoCMYFullBleed: " -r1200 -sIj&&
+sParams=Quality:Quality=3,Quality:ColorMode=2,Quality:MediaType=2,Qual&&
+ity:PenSet=1,Quality:FullBleed=1"
+*End
+*1284DeviceID: "MFG:HP;MDL:photosmart a510 series;DES:photosmart a510 series;"
+*cupsVersion: 1.7
+*cupsModelNumber: 0
+*cupsManualCopies: True
+*cupsFilter: "application/vnd.cups-postscript 100 foomatic-rip-hplip"
+*cupsFilter: "application/vnd.cups-pdf 0 foomatic-rip-hplip"
+*cupsLanguages: "en"
+*OpenUI *PageSize/Media Size: PickOne
+*OrderDependency: 10 AnySetup *PageSize
+*DefaultPageSize: PhotoTearOff
+*PageSize Photo/Photo or 4x6 inch index card: "%% FoomaticRIPOptionSetting: PageSize=Photo"
+*PageSize PhotoTearOff/Photo with tear-off tab: "%% FoomaticRIPOptionSetting: PageSize=PhotoTearOff"
+*PageSize 3x5/3x5 inch index card: "%% FoomaticRIPOptionSetting: PageSize=3x5"
+*PageSize A6/A6: "%% FoomaticRIPOptionSetting: PageSize=A6"
+*PageSize A6TearOff/A6 with tear-off tab: "%% FoomaticRIPOptionSetting: PageSize=A6TearOff"
+*PageSize CDDVD80/CD or DVD 80 mm: "%% FoomaticRIPOptionSetting: PageSize=CDDVD80"
+*PageSize Hagaki/Hagaki: "%% FoomaticRIPOptionSetting: PageSize=Hagaki"
+*CloseUI: *PageSize
+*OpenUI *PageRegion/Media Size: PickOne
+*OrderDependency: 10 AnySetup *PageRegion
+*DefaultPageRegion: PhotoTearOff
+*PageRegion Photo/Photo or 4x6 inch index card: "%% FoomaticRIPOptionSetting: PageSize=Photo"
+*PageRegion PhotoTearOff/Photo with tear-off tab: "%% FoomaticRIPOptionSetting: PageSize=PhotoTearOff"
+*PageRegion 3x5/3x5 inch index card: "%% FoomaticRIPOptionSetting: PageSize=3x5"
+*PageRegion A6/A6: "%% FoomaticRIPOptionSetting: PageSize=A6"
+*PageRegion A6TearOff/A6 with tear-off tab: "%% FoomaticRIPOptionSetting: PageSize=A6TearOff"
+*PageRegion CDDVD80/CD or DVD 80 mm: "%% FoomaticRIPOptionSetting: PageSize=CDDVD80"
+*PageRegion Hagaki/Hagaki: "%% FoomaticRIPOptionSetting: PageSize=Hagaki"
+*CloseUI: *PageRegion
+*DefaultImageableArea: PhotoTearOff
+*ImageableArea Photo/Photo or 4x6 inch index card: "0 36 288 432"
+*ImageableArea PhotoTearOff/Photo with tear-off tab: "0 0 288 432"
+*ImageableArea 3x5/3x5 inch index card: "0 36 216 360"
+*ImageableArea A6/A6: "0 36 297 420"
+*ImageableArea A6TearOff/A6 with tear-off tab: "0 0 297 420"
+*ImageableArea CDDVD80/CD or DVD 80 mm: "0 36 237 237"
+*ImageableArea Hagaki/Hagaki: "0 36 283 420"
+*DefaultPaperDimension: PhotoTearOff
+*PaperDimension Photo/Photo or 4x6 inch index card: "288 432"
+*PaperDimension PhotoTearOff/Photo with tear-off tab: "288 432"
+*PaperDimension 3x5/3x5 inch index card: "216 360"
+*PaperDimension A6/A6: "297 420"
+*PaperDimension A6TearOff/A6 with tear-off tab: "297 420"
+*PaperDimension CDDVD80/CD or DVD 80 mm: "237 237"
+*PaperDimension Hagaki/Hagaki: "283 420"
+*MaxMediaWidth: "297"
+*MaxMediaHeight: "420"
+*HWMargins: 0 0 0 0
+*CustomPageSize True: "pop pop pop <</PageSize[5 -2 roll]/ImagingBBox null>>setpagedevice"
+*ParamCustomPageSize Width: 1 points 72 297
+*ParamCustomPageSize Height: 2 points 288 420
+*ParamCustomPageSize WidthOffset: 3 points 0 0
+*ParamCustomPageSize HeightOffset: 4 points 0 0
+*ParamCustomPageSize Orientation: 5 int 0 0
+*OpenUI *PrintoutMode/Printout Mode: PickOne
+*OrderDependency: 10 AnySetup *PrintoutMode
+*DefaultPrintoutMode: Photo
+*PrintoutMode Normal/Normal (auto-detect paper type): "%% FoomaticRIPOptionSetting: PrintoutMode=Normal"
+*PrintoutMode High/High Quality (auto-detect paper type): "%% FoomaticRIPOptionSetting: PrintoutMode=High"
+*PrintoutMode Photo/Photo (on photo paper): "%% FoomaticRIPOptionSetting: PrintoutMode=Photo"
+*CloseUI: *PrintoutMode
+*OpenGroup: PrintoutMode/Printout Mode
+*OpenUI *Quality/Resolution, Quality, Ink Type, Media Type: PickOne
+*OrderDependency: 100 AnySetup *Quality
+*DefaultQuality: FromPrintoutMode
+*Quality FromPrintoutMode/Controlled by 'Printout Mode': "%% FoomaticRIPOptionSetting: Quality=@PrintoutMode"
+*Quality 300ColorCMY/300 dpi, Color, Color Cartr.: "%% FoomaticRIPOptionSetting: Quality=300ColorCMY"
+*Quality 300ColorCMYFullBleed/300 dpi, Color, Full Bleed, Color Cartr.: "%% FoomaticRIPOptionSetting: Quality=300ColorCMYFullBleed"
+*Quality 600ColorCMY/600 dpi, Color, Color Cartr.: "%% FoomaticRIPOptionSetting: Quality=600ColorCMY"
+*Quality 600ColorCMYFullBleed/600 dpi, Color, Full Bleed, Color Cartr.: "%% FoomaticRIPOptionSetting: Quality=600ColorCMYFullBleed"
+*Quality 1200PhotoCMY/1200 dpi, Photo, Color Cartr., Photo Paper: "%% FoomaticRIPOptionSetting: Quality=1200PhotoCMY"
+*Quality 1200PhotoCMYFullBleed/1200 dpi, Photo, Full Bleed, Color Cartr., Photo Paper: "%% FoomaticRIPOptionSetting: Quality=1200PhotoCMYFullBleed"
+*CloseUI: *Quality
+*CloseGroup: PrintoutMode
+*DefaultFont: Courier
+*Font AvantGarde-Book: Standard "(1.05)" Standard ROM
+*Font AvantGarde-BookOblique: Standard "(1.05)" Standard ROM
+*Font AvantGarde-Demi: Standard "(1.05)" Standard ROM
+*Font AvantGarde-DemiOblique: Standard "(1.05)" Standard ROM
+*Font Bookman-Demi: Standard "(1.05)" Standard ROM
+*Font Bookman-DemiItalic: Standard "(1.05)" Standard ROM
+*Font Bookman-Light: Standard "(1.05)" Standard ROM
+*Font Bookman-LightItalic: Standard "(1.05)" Standard ROM
+*Font Courier: Standard "(1.05)" Standard ROM
+*Font Courier-Bold: Standard "(1.05)" Standard ROM
+*Font Courier-BoldOblique: Standard "(1.05)" Standard ROM
+*Font Courier-Oblique: Standard "(1.05)" Standard ROM
+*Font Helvetica: Standard "(1.05)" Standard ROM
+*Font Helvetica-Bold: Standard "(1.05)" Standard ROM
+*Font Helvetica-BoldOblique: Standard "(1.05)" Standard ROM
+*Font Helvetica-Narrow: Standard "(1.05)" Standard ROM
+*Font Helvetica-Narrow-Bold: Standard "(1.05)" Standard ROM
+*Font Helvetica-Narrow-BoldOblique: Standard "(1.05)" Standard ROM
+*Font Helvetica-Narrow-Oblique: Standard "(1.05)" Standard ROM
+*Font Helvetica-Oblique: Standard "(1.05)" Standard ROM
+*Font NewCenturySchlbk-Bold: Standard "(1.05)" Standard ROM
+*Font NewCenturySchlbk-BoldItalic: Standard "(1.05)" Standard ROM
+*Font NewCenturySchlbk-Italic: Standard "(1.05)" Standard ROM
+*Font NewCenturySchlbk-Roman: Standard "(1.05)" Standard ROM
+*Font Palatino-Bold: Standard "(1.05)" Standard ROM
+*Font Palatino-BoldItalic: Standard "(1.05)" Standard ROM
+*Font Palatino-Italic: Standard "(1.05)" Standard ROM
+*Font Palatino-Roman: Standard "(1.05)" Standard ROM
+*Font Symbol: Special "(001.005)" Special ROM
+*Font Times-Bold: Standard "(1.05)" Standard ROM
+*Font Times-BoldItalic: Standard "(1.05)" Standard ROM
+*Font Times-Italic: Standard "(1.05)" Standard ROM
+*Font Times-Roman: Standard "(1.05)" Standard ROM
+*Font ZapfChancery-MediumItalic: Standard "(1.05)" Standard ROM
+*Font ZapfDingbats: Special "(001.005)" Special ROM
+*% End of hp-photosmart_a510_series-hpijs.ppd, 10041 bytes.

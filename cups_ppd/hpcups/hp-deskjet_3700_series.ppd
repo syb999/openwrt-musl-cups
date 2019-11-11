@@ -1,0 +1,262 @@
+*PPD-Adobe: "4.3"
+*%%%% PPD file for HP Deskjet 3700 Series with CUPS.
+*%%%% Created by the CUPS PPD Compiler CUPS v1.7.2.
+*% (c) 2008 Copyright HP Development Company, LP
+*FormatVersion: "4.3"
+*FileVersion: "3.19.10"
+*LanguageVersion: English
+*LanguageEncoding: ISOLatin1
+*PCFileName: "hp-deskjet_3700_series.ppd"
+*Product: "(HP Deskjet 3700 All-in-one)"
+*Product: "(HP Deskjet 3720 All-in-one)"
+*Product: "(HP Deskjet 3730 All-in-one)"
+*Product: "(HP Deskjet 3755 All-in-one)"
+*Product: "(HP Deskjet Ink Advantage 3775 All-in-one)"
+*Product: "(HP Deskjet Ink Advantage 3776 All-in-one)"
+*Product: "(HP Deskjet Ink Advantage 3785 All-in-one)"
+*Manufacturer: "HP"
+*ModelName: "HP Deskjet 3700 Series"
+*ShortNickName: "HP Deskjet 3700 Series hpijs"
+*NickName: "HP Deskjet 3700 Series, hpcups 3.19.10"
+*PSVersion: "(3010.000) 0"
+*LanguageLevel: "3"
+*ColorDevice: True
+*DefaultColorSpace: RGB
+*FileSystem: False
+*Throughput: "1"
+*LandscapeOrientation: Plus90
+*TTRasterizer: Type42
+*% Driver-defined attributes...
+*RequiresPageRegion All: True
+*cupsBackSide: "Rotated"
+*hpPrinterLanguage: "pcl3gui2"
+*HPMechOffset: "588"
+*hpPrinterPlatform: "SPDDeskJet"
+*HPSPDClass: "1"
+*1284DeviceID: "MFG:HP;MDL:deskjet 3700 series;DES:deskjet 3700 series;"
+*cupsVersion: 1.7
+*cupsModelNumber: 0
+*cupsManualCopies: True
+*cupsFilter: "application/vnd.cups-raster 0 hpcups"
+*cupsLanguages: "en"
+*OpenUI *PageSize/Media Size: PickOne
+*OrderDependency: 10 AnySetup *PageSize
+*DefaultPageSize: Letter
+*PageSize Photo2L/Photo 2L 127x78mm: "<</cupsInteger0 126/PageSize[360 504]/ImagingBBox null>>setpagedevice"
+*PageSize LSIZ/CardL 3.5x5 in.: "<</cupsInteger0 121/PageSize[252 360]/ImagingBBox null>>setpagedevice"
+*PageSize Card3x5/Index Card 3x5in: "<</cupsInteger0 78/PageSize [216 360]/ImagingBBox null>>setpagedevice"
+*PageSize Photo4x5/Photo 4x5in: "<</cupsInteger0 30002/PageSize[288 360]/ImagingBBox null>>setpagedevice"
+*PageSize Card4x6/IndexCard 4x6in: "<</cupsInteger0 74/PageSize[288 432]/ImagingBBox null>>setpagedevice"
+*PageSize Card10x15/IndexCard 10x15 cm in: "<</cupsInteger0 74/PageSize[288 432]/ImagingBBox null>>setpagedevice"
+*PageSize Card5x7/Card 5x7in: "<</cupsInteger0 122/PageSize[360 504]/ImagingBBox null>>setpagedevice"
+*PageSize FLSA/Foolscap 8.5x13in: "<</cupsInteger0 10/PageSize[612 936]/ImagingBBox null>>setpagedevice"
+*PageSize Letter/Letter 8x10: "<</cupsInteger0 7/PageSize[576 720]/ImagingBBox null>>setpagedevice"
+*PageSize Oufuku/Oufuku-Hagaki 200x148mm: "<</cupsInteger0 72/PageSize[566 419.52]/ImagingBBox null>>setpagedevice"
+*PageSize Env/#6 Envelope 6.63x6.5 in: "<</cupsInteger0 83/PageSize[260.68 468]/ImagingBBox null>>setpagedevice"
+*PageSize A4/A4 210x297: "<</cupsInteger0 26/PageSize[595.44 841.68]/ImagingBBox null>>setpagedevice"
+*PageSize A5/A5 148x210: "<</cupsInteger0 25/PageSize[612 792]/ImagingBBox null>>setpagedevice"
+*PageSize A6/A6 105x148.5: "<</cupsInteger0 24/PageSize[297.84 419.52]/ImagingBBox null>>setpagedevice"
+*PageSize B5176x250/B5 176x250: "<</cupsInteger0 65/PageSize[498.72 708.48]/ImagingBBox null>>setpagedevice"
+*PageSize B5/B5 182x257: "<</cupsInteger0 45/PageSize[515.76 728.4]/ImagingBBox null>>setpagedevice"
+*PageSize Custom/Custom1: "<</cupsInteger0 101/PageSize[612 1008]/ImagingBBox null>>setpagedevice"
+*PageSize Env10/#10 Envelope 4.1x9.5in: "<</cupsInteger0 81/PageSize[296.88 684]/ImagingBBox null>>setpagedevice"
+*PageSize EnvA2/A2 Envelope 111x146in: "<</cupsInteger0 109/PageSize[314.88 414]/ImagingBBox null>>setpagedevice"
+*PageSize EnvC5/C5 Envelope 162x229mm in: "<</cupsInteger0 91/PageSize[459.12 648.96]/ImagingBBox null>>setpagedevice"
+*PageSize EnvC6/C6 Envelope 114x162mm in: "<</cupsInteger0 92/PageSize[323.04 459.12]/ImagingBBox null>>setpagedevice"
+*PageSize EnvDL/DL Envelope 110x220mm: "<</cupsInteger0 90/PageSize[311.76 623.52]/ImagingBBox null>>setpagedevice"
+*PageSize EnvMonarch/Monarch Envelope 3.88x7.5in: "<</cupsInteger0 80/PageSize[278.88 540]/ImagingBBox null>>setpagedevice"
+*PageSize EnvChou3/#3 Japanese Envelope: "<</cupsInteger0 110/PageSize[339.84 666]/ImagingBBox null>>setpagedCard3x5evice"
+*PageSize EnvChou4/#4 Japanese Envelope: "<</cupsInteger0 111/PageSize[254.88 581.04]/ImagingBBox null>>setpagedevice"
+*PageSize PostCard/ Japanese Hagaki 100x148 mm: "<</cupsInteger0 71/PageSize[284.16 419.52]/ImagingBBox null>>setpagedevice"
+*PageSize 3x5in/3x5 in: "<</cupsInteger0 78/PageSize[216 360]/ImagingBBox null>>setpagedevice"
+*PageSize Card4x6in/Card 4x6in: "<</cupsInteger0 74/PageSize[288 432]/ImagingBBox null>>setpagedevice"
+*PageSize Card5x8in/Index Card 5x8in: "<</cupsInteger0 75/PageSize[360 576]/ImagingBBox null>>setpagedevice"
+*PageSize Executive/Executive 7.25x10.5in: "<</cupsInteger0 1/PageSize[522 756]/ImagingBBox null>>setpagedevice"
+*PageSize A48.27x11.69/A48.27x11.69: "<</cupsInteger0 26/PageSize[595.44 841.68]/ImagingBBox null>>setpagedevice"
+*PageSize Legal/Legal 8.5x14in: "<</cupsInteger0 3/PageSize[612 1008]/ImagingBBox null>>setpagedevice"
+*PageSize USLETTER/Letter 8.5X11in: "<</cupsInteger0 2/PageSize[612 792]/ImagingBBox null>>setpagedevice"
+*PageSize LETTER8.5X11/Letter 8.5X11in: "<</cupsInteger0 2/PageSize[612 792]/ImagingBBox null>>setpagedevice"
+*PageSize Statement/Statement 5.5x8.5in: "<</cupsInteger0 15/PageSize[396 612]/ImagingBBox null>>setpagedevice"
+*CloseUI: *PageSize
+*OpenUI *PageRegion/Media Size: PickOne
+*OrderDependency: 10 AnySetup *PageRegion
+*DefaultPageRegion: Letter
+*PageRegion Photo2L/Photo 2L 127x78mm: "<</cupsInteger0 126/PageSize[360 504]/ImagingBBox null>>setpagedevice"
+*PageRegion LSIZ/CardL 3.5x5 in.: "<</cupsInteger0 121/PageSize[252 360]/ImagingBBox null>>setpagedevice"
+*PageRegion Card3x5/Index Card 3x5in: "<</cupsInteger0 78/PageSize[216 360]/ImagingBBox null>>setpagedevice"
+*PageRegion Photo4x5/Photo 4x5in: "<</cupsInteger0 121/PageSize[288 360]/ImagingBBox null>>setpagedevice"
+*PageRegion Card4x6/IndexCard 4x6in: "<</cupsInteger0 74/PageSize[288 432]/ImagingBBox null>>setpagedevice"
+*PageRegion Card10x15/IndexCard 10x15 cm in: "<</cupsInteger0 74/PageSize[288 432]/ImagingBBox null>>setpagedevice"
+*PageRegion Card5x7/Card 5x7in: "<</cupsInteger0 122/PageSize[360 504]/ImagingBBox null>>setpagedevice"
+*PageRegion FLSA/Foolscap 8.5x13in: "<</cupsInteger0 10/PageSize[612 936]/ImagingBBox null>>setpagedevice"
+*PageRegion Letter/Letter 8x10: "<</cupsInteger0 7/PageSize[576 720]/ImagingBBox null>>setpagedevice"
+*PageRegion Oufuku/Oufuku-Hagaki 200x148mm: "<</cupsInteger0 72/PageSize[566 419.52]/ImagingBBox null>>setpagedevice"
+*PageRegion Env/#6 Envelope 6.63x6.5 in: "<</cupsInteger0 121/PageSize[260.68 468]/ImagingBBox null>>setpagedevice"
+*PageRegion A4/A4 210x297: "<</cupsInteger0 26/PageSize[595.44 841.68]/ImagingBBox null>>setpagedevice"
+*PageRegion A5/A5 148x210: "<</cupsInteger0 25/PageSize[612 792]/ImagingBBox null>>setpagedevice"
+*PageRegion A6/A6 105x148.5: "<</cupsInteger0 24/PageSize[297.84 419.52]/ImagingBBox null>>setpagedevice"
+*PageRegion B5176x250/B5 176x250: "<</cupsInteger0 65/PageSize[498.72 708.48]/ImagingBBox null>>setpagedevice"
+*PageRegion B5/B5 182x257: "<</cupsInteger0 45/PageSize[515.76 728.4]/ImagingBBox null>>setpagedevice"
+*PageRegion Custom/Custom1: "<</cupsInteger0 101/PageSize[612 1008]/ImagingBBox null>>setpagedevice"
+*PageRegion Env10/#10 Envelope 4.1x9.5in: "<</cupsInteger0 81/PageSize[296.88 684]/ImagingBBox null>>setpagedevice"
+*PageRegion EnvA2/A2 Envelope 111x146in: "<</cupsInteger0 109/PageSize[314.88 414]/ImagingBBox null>>setpagedevice"
+*PageRegion EnvC5/C5 Envelope 162x229mm in: "<</cupsInteger0 91/PageSize[459.12 648.96]/ImagingBBox null>>setpagedevice"
+*PageRegion EnvC6/C6 Envelope 114x162mm in: "<</cupsInteger0 92/PageSize[323.04 459.12]/ImagingBBox null>>setpagedevice"
+*PageRegion EnvDL/DL Envelope 110x220mm: "<</cupsInteger0 90/PageSize[311.76 623.52]/ImagingBBox null>>setpagedevice"
+*PageRegion EnvMonarch/Monarch Envelope 3.88x7.5in: "<</cupsInteger0 80/PageSize[278.88 540]/ImagingBBox null>>setpagedevice"
+*PageRegion EnvChou3/#3 Japanese Envelope: "<</cupsInteger0 110/PageSize[339.84 666]/ImagingBBox null>>setpagedevice"
+*PageRegion EnvChou4/#4 Japanese Envelope: "<</cupsInteger0 111/PageSize[254.88 581.04]/ImagingBBox null>>setpagedevice"
+*PageRegion PostCard/ Japanese Hagaki 100x148 mm: "<</cupsInteger0 71/PageSize[284.16 419.52]/ImagingBBox null>>setpagedevice"
+*PageRegion 3x5in/3x5 in: "<</cupsInteger0 78/PageSize[216 360]/ImagingBBox null>>setpagedevice"
+*PageRegion Card4x6in/Card 4x6in: "<</cupsInteger0 74/PageSize[288 432]/ImagingBBox null>>setpagedevice"
+*PageRegion Card5x8in/Index Card 5x8in: "<</cupsInteger0 75/PageSize[360 576]/ImagingBBox null>>setpagedevice"
+*PageRegion Executive/Executive 7.25x10.5in: "<</cupsInteger0 1/PageSize[522 756]/ImagingBBox null>>setpagedevice"
+*PageRegion A48.27x11.69/A48.27x11.69: "<</cupsInteger0 26/PageSize[595.44 841.68]/ImagingBBox null>>setpagedevice"
+*PageRegion Legal/Legal 8.5x14in: "<</cupsInteger0 3/PageSize[612 1008]/ImagingBBox null>>setpagedevice"
+*PageRegion USLETTER/Letter 8.5X11in: "<</cupsInteger0 2/PageSize[612 792]/ImagingBBox null>>setpagedevice"
+*PageRegion LETTER8.5X11/Letter 8.5X11in: "<</cupsInteger0 2/PageSize[612 792]/ImagingBBox null>>setpagedevice"
+*PageRegion Statement/Statement 5.5x8.5in: "<</cupsInteger0 15/PageSize[396 612]/ImagingBBox null>>setpagedevice"
+*CloseUI: *PageRegion
+*DefaultImageableArea: Letter
+*ImageableArea Photo2L/Photo 2L 127x78mm: "8.39999961853 8.39999961853 351.600006103516 462.959991455078"
+*ImageableArea LSIZ/CardL 3.5x5 in.: "8.39999961853 8.39999961853 243.600006103516 318.959991455078"
+*ImageableArea Card3x5/Index Card 3x5in: "8.39999961853 8.39999961853 207.600006103516 318.959991455078"
+*ImageableArea Photo4x5/Photo 4x5in: "8.39999961853 8.39999961853 279.600006103516 318.959991455078"
+*ImageableArea Card4x6/IndexCard 4x6in: "8.39999961853 8.39999961853 279.600006103516 390.959991455078"
+*ImageableArea Card10x15/IndexCard 10x15 cm in: "8.39999961853 8.39999961853 246.959991455078 390.959991455078"
+*ImageableArea Card5x7/Card 5x7in: "8.39999961853 8.39999961853 351.600006103516 462.959991455078"
+*ImageableArea FLSA/Foolscap 8.5x13in: "8.39999961853 8.39999961853 603.599975585938 894.960021972656"
+*ImageableArea Letter/Letter 8x10: "8.39999961853 8.39999961853 567.599975585938 678.960021972656"
+*ImageableArea Oufuku/Oufuku-Hagaki 200x148mm: "8.39999961853 8.39999961853 557.599975585938 378.47998046875"
+*ImageableArea Env/#6 Envelope 6.63x6.5 in: "8.39999961853 8.39999961853 252.279998779297 426.959991455078"
+*ImageableArea A4/A4 210x297: "8.39999961853 8.39999961853 587.039978027344 800.640014648438"
+*ImageableArea A5/A5 148x210: "8.39999961853 8.39999961853 603.599975585938 750.960021972656"
+*ImageableArea A6/A6 105x148.5: "8.39999961853 8.39999961853 289.440002441406 378.47998046875"
+*ImageableArea B5176x250/B5 176x250: "8.39999961853 8.39999961853 490.320007324219 667.440002441406"
+*ImageableArea B5/B5 182x257: "8.39999961853 8.39999961853 507.360015869141 687.360046386719"
+*ImageableArea Custom/Custom1: "8.39999961853 8.39999961853 603.599975585938 966.960021972656"
+*ImageableArea Env10/#10 Envelope 4.1x9.5in: "8.39999961853 8.39999961853 288.480010986328 642.960021972656"
+*ImageableArea EnvA2/A2 Envelope 111x146in: "8.39999961853 8.39999961853 306.480010986328 372.959991455078"
+*ImageableArea EnvC5/C5 Envelope 162x229mm in: "8.39999961853 8.39999961853 450.720001220703 607.920043945312"
+*ImageableArea EnvC6/C6 Envelope 114x162mm in: "8.39999961853 8.39999961853 314.640014648438 418.079986572266"
+*ImageableArea EnvDL/DL Envelope 110x220mm: "8.39999961853 8.39999961853 303.360015869141 582.480041503906"
+*ImageableArea EnvMonarch/Monarch Envelope 3.88x7.5in: "8.39999961853 8.39999961853 270.480010986328 498.959991455078"
+*ImageableArea EnvChou3/#3 Japanese Envelope: "8.39999961853 8.39999961853 331.440002441406 624.960021972656"
+*ImageableArea EnvChou4/#4 Japanese Envelope: "8.39999961853 8.39999961853 246.480010986328 540"
+*ImageableArea PostCard/ Japanese Hagaki 100x148 mm: "8.39999961853 8.39999961853 275.760009765625 378.47998046875"
+*ImageableArea 3x5in/3x5 in: "8.39999961853 8.39999961853 207.600006103516 318.959991455078"
+*ImageableArea Card4x6in/Card 4x6in: "8.39999961853 8.39999961853 279.600006103516 390.959991455078"
+*ImageableArea Card5x8in/Index Card 5x8in: "8.39999961853 8.39999961853 351.600006103516 534.960021972656"
+*ImageableArea Executive/Executive 7.25x10.5in: "8.39999961853 8.39999961853 513.599975585938 714.960021972656"
+*ImageableArea A48.27x11.69/A48.27x11.69: "8.39999961853 8.39999961853 587.039978027344 799.960021972656"
+*ImageableArea Legal/Legal 8.5x14in: "8.39999961853 8.39999961853 603.599975585938 966.960021972656"
+*ImageableArea USLETTER/Letter 8.5X11in: "8.39999961853 8.39999961853 603.599975585938 750.960021972656"
+*ImageableArea LETTER8.5X11/Letter 8.5X11in: "8.39999961853 8.39999961853 603.599975585938 966.960021972656"
+*ImageableArea Statement/Statement 5.5x8.5in: "8.39999961853 8.39999961853 387.600006103516 570.960021972656"
+*DefaultPaperDimension: Letter
+*PaperDimension Photo2L/Photo 2L 127x78mm: "360 504"
+*PaperDimension LSIZ/CardL 3.5x5 in.: "252 360"
+*PaperDimension Card3x5/Index Card 3x5in: "216 360"
+*PaperDimension Photo4x5/Photo 4x5in: "288 360"
+*PaperDimension Card4x6/IndexCard 4x6in: "288 432"
+*PaperDimension Card10x15/IndexCard 10x15 cm in: "288 432"
+*PaperDimension Card5x7/Card 5x7in: "360 504"
+*PaperDimension FLSA/Foolscap 8.5x13in: "612 936"
+*PaperDimension Letter/Letter 8x10: "576 720"
+*PaperDimension Oufuku/Oufuku-Hagaki 200x148mm: "566 419.519989013672"
+*PaperDimension Env/#6 Envelope 6.63x6.5 in: "260.679992675781 468"
+*PaperDimension A4/A4 210x297: "595.440002441406 841.679992675781"
+*PaperDimension A5/A5 148x210: "612 792"
+*PaperDimension A6/A6 105x148.5: "297.839996337891 419.519989013672"
+*PaperDimension B5176x250/B5 176x250: "498.720001220703 708.47998046875"
+*PaperDimension B5/B5 182x257: "515.760009765625 728.400024414062"
+*PaperDimension Custom/Custom1: "612 1008"
+*PaperDimension Env10/#10 Envelope 4.1x9.5in: "296.880004882812 684"
+*PaperDimension EnvA2/A2 Envelope 111x146in: "314.880004882812 414"
+*PaperDimension EnvC5/C5 Envelope 162x229mm in: "459.119995117188 648.960021972656"
+*PaperDimension EnvC6/C6 Envelope 114x162mm in: "323.040008544922 459.119995117188"
+*PaperDimension EnvDL/DL Envelope 110x220mm: "311.760009765625 623.52001953125"
+*PaperDimension EnvMonarch/Monarch Envelope 3.88x7.5in: "278.880004882812 540"
+*PaperDimension EnvChou3/#3 Japanese Envelope: "339.839996337891 666"
+*PaperDimension EnvChou4/#4 Japanese Envelope: "254.880004882812 581.039978027344"
+*PaperDimension PostCard/ Japanese Hagaki 100x148 mm: "284.160003662109 419.519989013672"
+*PaperDimension 3x5in/3x5 in: "216 360"
+*PaperDimension Card4x6in/Card 4x6in: "288 432"
+*PaperDimension Card5x8in/Index Card 5x8in: "360 576"
+*PaperDimension Executive/Executive 7.25x10.5in: "522 756"
+*PaperDimension A48.27x11.69/A48.27x11.69: "595.440002441406 841"
+*PaperDimension Legal/Legal 8.5x14in: "612 1008"
+*PaperDimension USLETTER/Letter 8.5X11in: "612 792"
+*PaperDimension LETTER8.5X11/Letter 8.5X11in: "612 1008"
+*PaperDimension Statement/Statement 5.5x8.5in: "396 612"
+*OpenUI *ColorModel/Output Mode: PickOne
+*OrderDependency: 10 AnySetup *ColorModel
+*DefaultColorModel: RGB
+*ColorModel RGB/Color: "<</cupsColorSpace 17/cupsBitsPerColor 8/cupsRowStep 0>>setpagedevice"
+*ColorModel CMYGray/High Quality Grayscale: "<</cupsColorSpace 1/cupsBitsPerColor 8/cupsRowStep 1>>setpagedevice"
+*ColorModel KGray/Black Only Grayscale: "<</cupsColorSpace 1/cupsBitsPerColor 8/cupsRowStep 2>>setpagedevice"
+*CloseUI: *ColorModel
+*OpenUI *MediaType/Media Type: PickOne
+*OrderDependency: 10 AnySetup *MediaType
+*DefaultMediaType: Plain
+*MediaType Plain/Plain paper: "<</MediaType/cupsMediaType 0>>setpagedevice"
+*MediaType Glossy/HP Photo Papers: "<</MediaType/cupsMediaType 5>>setpagedevice"
+*MediaType FastGlossy/Other photo inkjet papers: "<</MediaType/cupsMediaType 5>>setpagedevice"
+*MediaType CoatedBrochure/HP Matte Brochure or Professional Paper: "<</MediaType/cupsMediaType 2>>setpagedevice"
+*MediaType CoatedMatte/HP Matte Presentation Paper: "<</MediaType/cupsMediaType 2>>setpagedevice"
+*MediaType Coated/Other matte inkjet papers: "<</MediaType/cupsMediaType 2>>setpagedevice"
+*MediaType BrochureGlosy/HP Glosy Brochure or Professional Paper: "<</MediaType/cupsMediaType 8>>setpagedevice"
+*MediaType Brochure/Other glosy inkjet papers: "<</MediaType/cupsMediaType 8>>setpagedevice"
+*MediaType Recycled/Plain Paper Light or Recycled: "<</MediaType/cupsMediaType 1>>setpagedevice"
+*CloseUI: *MediaType
+*OpenUI *OutputMode/Print Quality: PickOne
+*OrderDependency: 10 AnySetup *OutputMode
+*DefaultOutputMode: Normal
+*OutputMode Normal/Normal: "<</OutputType(0)/HWResolution[600 600]>>setpagedevice"
+*OutputMode FastDraft/Draft: "<</OutputType(-2)/HWResolution[300 300]>>setpagedevice"
+*OutputMode Best/Best: "<</OutputType(1)/HWResolution[600 600]>>setpagedevice"
+*OutputMode Photo/High-Resolution Photo: "<</OutputType(2)/HWResolution[1200 1200]>>setpagedevice"
+*CloseUI: *OutputMode
+*OpenUI *InputSlot/Media Source: PickOne
+*OrderDependency: 10 AnySetup *InputSlot
+*DefaultInputSlot: Auto
+*InputSlot Auto/Auto-Select: "<</MediaPosition 7>>setpagedevice"
+*InputSlot Upper/Main Tray: "<</MediaPosition 1>>setpagedevice"
+*CloseUI: *InputSlot
+*DefaultFont: Courier
+*Font AvantGarde-Book: Standard "(1.05)" Standard ROM
+*Font AvantGarde-BookOblique: Standard "(1.05)" Standard ROM
+*Font AvantGarde-Demi: Standard "(1.05)" Standard ROM
+*Font AvantGarde-DemiOblique: Standard "(1.05)" Standard ROM
+*Font Bookman-Demi: Standard "(1.05)" Standard ROM
+*Font Bookman-DemiItalic: Standard "(1.05)" Standard ROM
+*Font Bookman-Light: Standard "(1.05)" Standard ROM
+*Font Bookman-LightItalic: Standard "(1.05)" Standard ROM
+*Font Courier: Standard "(1.05)" Standard ROM
+*Font Courier-Bold: Standard "(1.05)" Standard ROM
+*Font Courier-BoldOblique: Standard "(1.05)" Standard ROM
+*Font Courier-Oblique: Standard "(1.05)" Standard ROM
+*Font Helvetica: Standard "(1.05)" Standard ROM
+*Font Helvetica-Bold: Standard "(1.05)" Standard ROM
+*Font Helvetica-BoldOblique: Standard "(1.05)" Standard ROM
+*Font Helvetica-Narrow: Standard "(1.05)" Standard ROM
+*Font Helvetica-Narrow-Bold: Standard "(1.05)" Standard ROM
+*Font Helvetica-Narrow-BoldOblique: Standard "(1.05)" Standard ROM
+*Font Helvetica-Narrow-Oblique: Standard "(1.05)" Standard ROM
+*Font Helvetica-Oblique: Standard "(1.05)" Standard ROM
+*Font NewCenturySchlbk-Bold: Standard "(1.05)" Standard ROM
+*Font NewCenturySchlbk-BoldItalic: Standard "(1.05)" Standard ROM
+*Font NewCenturySchlbk-Italic: Standard "(1.05)" Standard ROM
+*Font NewCenturySchlbk-Roman: Standard "(1.05)" Standard ROM
+*Font Palatino-Bold: Standard "(1.05)" Standard ROM
+*Font Palatino-BoldItalic: Standard "(1.05)" Standard ROM
+*Font Palatino-Italic: Standard "(1.05)" Standard ROM
+*Font Palatino-Roman: Standard "(1.05)" Standard ROM
+*Font Symbol: Special "(001.005)" Special ROM
+*Font Times-Bold: Standard "(1.05)" Standard ROM
+*Font Times-BoldItalic: Standard "(1.05)" Standard ROM
+*Font Times-Italic: Standard "(1.05)" Standard ROM
+*Font Times-Roman: Standard "(1.05)" Standard ROM
+*Font ZapfChancery-MediumItalic: Standard "(1.05)" Standard ROM
+*Font ZapfDingbats: Special "(001.005)" Special ROM
+*% End of hp-deskjet_3700_series.ppd, 19401 bytes.

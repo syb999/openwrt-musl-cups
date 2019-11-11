@@ -1,0 +1,157 @@
+*PPD-Adobe: "4.3"
+*%%%% PPD file for HP Photosmart a430 Series with CUPS.
+*%%%% Created by the CUPS PPD Compiler CUPS v1.7.2.
+*% (c) 2008 Copyright HP Development Company, LP
+*FormatVersion: "4.3"
+*FileVersion: "3.19.10"
+*LanguageVersion: English
+*LanguageEncoding: ISOLatin1
+*PCFileName: "hp-photosmart_a430_series.ppd"
+*Product: "(HP Photosmart a430 Compact Photo Printer)"
+*Product: "(HP Photosmart a432 Compact Photo Printer)"
+*Product: "(HP Photosmart a433 Compact Photo Printer)"
+*Product: "(HP Photosmart a434 Compact Photo Printer)"
+*Product: "(HP Photosmart a436 Compact Photo Printer)"
+*Manufacturer: "HP"
+*ModelName: "HP Photosmart a430 Series"
+*ShortNickName: "HP Photosmart a430 Series hpijs"
+*NickName: "HP Photosmart a430 Series, hpcups 3.19.10"
+*PSVersion: "(3010.000) 0"
+*LanguageLevel: "3"
+*ColorDevice: True
+*DefaultColorSpace: RGB
+*FileSystem: False
+*Throughput: "1"
+*LandscapeOrientation: Plus90
+*TTRasterizer: Type42
+*% Driver-defined attributes...
+*RequiresPageRegion All: True
+*hpPrinterLanguage: "pcl3gui2"
+*HPMechOffset: "70"
+*cupsModelName: "deskjet 5600"
+*1284DeviceID: "MFG:HP;MDL:photosmart a430 series;DES:photosmart a430 series;"
+*cupsVersion: 1.7
+*cupsModelNumber: 0
+*cupsManualCopies: True
+*cupsFilter: "application/vnd.cups-raster 0 hpcups"
+*cupsLanguages: "en"
+*UIConstraints: *MediaType Plain *OutputMode Photo
+*UIConstraints: *OutputMode Photo *MediaType Plain
+*OpenUI *PageSize/Media Size: PickOne
+*OrderDependency: 10 AnySetup *PageSize
+*DefaultPageSize: Photo4x6.FB
+*PageSize Hagaki/Hagaki 100x148mm: "<</cupsInteger0 71/PageSize[284 420]/ImagingBBox null>>setpagedevice"
+*PageSize Hagaki.FB/Hagaki Borderless 100x148mm: "<</cupsInteger0 71/PageSize[294 430]/ImagingBBox null>>setpagedevice"
+*PageSize Photo4x6/Photo 4x6in: "<</cupsInteger0 74/PageSize[288 432]/ImagingBBox null>>setpagedevice"
+*PageSize Photo4x6.FB/Photo Borderless 4x6 in: "<</cupsInteger0 74/PageSize[298 442]/ImagingBBox null>>setpagedevice"
+*PageSize A6/A6 105x148mm: "<</cupsInteger0 73/PageSize[297.36 419.76]/ImagingBBox null>>setpagedevice"
+*PageSize A6.FB/A6 Borderless 105x148mm: "<</cupsInteger0 73/PageSize[307 430]/ImagingBBox null>>setpagedevice"
+*PageSize EnvChou4/#4 Japanese Envelope 90x205mm: "<</cupsInteger0 111/PageSize[254.88 581.04]/ImagingBBox null>>setpagedevice"
+*CloseUI: *PageSize
+*OpenUI *PageRegion/Media Size: PickOne
+*OrderDependency: 10 AnySetup *PageRegion
+*DefaultPageRegion: Photo4x6.FB
+*PageRegion Hagaki/Hagaki 100x148mm: "<</cupsInteger0 71/PageSize[284 420]/ImagingBBox null>>setpagedevice"
+*PageRegion Hagaki.FB/Hagaki Borderless 100x148mm: "<</cupsInteger0 71/PageSize[294 430]/ImagingBBox null>>setpagedevice"
+*PageRegion Photo4x6/Photo 4x6in: "<</cupsInteger0 74/PageSize[288 432]/ImagingBBox null>>setpagedevice"
+*PageRegion Photo4x6.FB/Photo Borderless 4x6 in: "<</cupsInteger0 74/PageSize[298 442]/ImagingBBox null>>setpagedevice"
+*PageRegion A6/A6 105x148mm: "<</cupsInteger0 73/PageSize[297.36 419.76]/ImagingBBox null>>setpagedevice"
+*PageRegion A6.FB/A6 Borderless 105x148mm: "<</cupsInteger0 73/PageSize[307 430]/ImagingBBox null>>setpagedevice"
+*PageRegion EnvChou4/#4 Japanese Envelope 90x205mm: "<</cupsInteger0 111/PageSize[254.88 581.04]/ImagingBBox null>>setpagedevice"
+*CloseUI: *PageRegion
+*DefaultImageableArea: Photo4x6.FB
+*ImageableArea Hagaki/Hagaki 100x148mm: "9 9 275 411"
+*ImageableArea Hagaki.FB/Hagaki Borderless 100x148mm: "0 0 294 430"
+*ImageableArea Photo4x6/Photo 4x6in: "9 9 279 423"
+*ImageableArea Photo4x6.FB/Photo Borderless 4x6 in: "0 0 298 442"
+*ImageableArea A6/A6 105x148mm: "9 9 288.359985351562 410.760009765625"
+*ImageableArea A6.FB/A6 Borderless 105x148mm: "0 0 307 430"
+*ImageableArea EnvChou4/#4 Japanese Envelope 90x205mm: "9 41 245.880004882812 572.039978027344"
+*DefaultPaperDimension: Photo4x6.FB
+*PaperDimension Hagaki/Hagaki 100x148mm: "284 420"
+*PaperDimension Hagaki.FB/Hagaki Borderless 100x148mm: "294 430"
+*PaperDimension Photo4x6/Photo 4x6in: "288 432"
+*PaperDimension Photo4x6.FB/Photo Borderless 4x6 in: "298 442"
+*PaperDimension A6/A6 105x148mm: "297.359985351562 419.760009765625"
+*PaperDimension A6.FB/A6 Borderless 105x148mm: "307 430"
+*PaperDimension EnvChou4/#4 Japanese Envelope 90x205mm: "254.880004882812 581.039978027344"
+*MaxMediaWidth: "297"
+*MaxMediaHeight: "420"
+*HWMargins: 9 9 9 9
+*CustomPageSize True: "pop pop pop <</PageSize[5 -2 roll]/ImagingBBox null>>setpagedevice"
+*ParamCustomPageSize Width: 1 points 72 297
+*ParamCustomPageSize Height: 2 points 288 420
+*ParamCustomPageSize WidthOffset: 3 points 0 0
+*ParamCustomPageSize HeightOffset: 4 points 0 0
+*ParamCustomPageSize Orientation: 5 int 0 0
+*OpenUI *InputSlot/Media Source: PickOne
+*OrderDependency: 10 AnySetup *InputSlot
+*DefaultInputSlot: Auto
+*InputSlot Auto/Auto-Select: "<</MediaPosition 7>>setpagedevice"
+*InputSlot PhotoTray/Photo Tray: "<</MediaPosition 6>>setpagedevice"
+*InputSlot Upper/Upper Tray: "<</MediaPosition 1>>setpagedevice"
+*InputSlot Lower/Lower Tray: "<</MediaPosition 4>>setpagedevice"
+*InputSlot Envelope/Envelope Feeder: "<</MediaPosition 3>>setpagedevice"
+*InputSlot LargeCapacity/Large Capacity Tray: "<</MediaPosition 5>>setpagedevice"
+*InputSlot Manual/Manual Feeder: "<</MediaPosition 2>>setpagedevice"
+*InputSlot MPTray/Multi Purpose Tray: "<</MediaPosition 1>>setpagedevice"
+*CloseUI: *InputSlot
+*OpenUI *ColorModel/Output Mode: PickOne
+*OrderDependency: 10 AnySetup *ColorModel
+*DefaultColorModel: RGB
+*ColorModel RGB/Color: "<</cupsColorSpace 1/cupsBitsPerColor 8/cupsRowStep 0>>setpagedevice"
+*CloseUI: *ColorModel
+*OpenUI *MediaType/Media Type: PickOne
+*OrderDependency: 10 AnySetup *MediaType
+*DefaultMediaType: Automatic
+*MediaType Automatic/Automatic: "<</MediaType(Automatic)/cupsMediaType -1>>setpagedevice"
+*MediaType Plain/Plain Paper: "<</MediaType(Plain)/cupsMediaType 0>>setpagedevice"
+*MediaType Glossy/Photo Paper: "<</MediaType(Glossy)/cupsMediaType 3>>setpagedevice"
+*MediaType TransparencyFilm/Transparency Film: "<</MediaType(TransparencyFilm)/cupsMediaType 4>>setpagedevice"
+*CloseUI: *MediaType
+*OpenUI *OutputMode/Print Quality: PickOne
+*OrderDependency: 10 AnySetup *OutputMode
+*DefaultOutputMode: Auto
+*OutputMode Normal/Normal: "<</OutputType(0)/HWResolution[600 600]>>setpagedevice"
+*OutputMode FastNormal/FastNormal: "<</OutputType(3)/HWResolution[600 600]>>setpagedevice"
+*OutputMode Best/Best: "<</OutputType(1)/HWResolution[600 600]>>setpagedevice"
+*OutputMode Photo/High-Resolution Photo: "<</OutputType(2)/HWResolution[1200 1200]>>setpagedevice"
+*OutputMode Auto/Automatic: "<</OutputType(-3)/HWResolution[600 600]>>setpagedevice"
+*CloseUI: *OutputMode
+*DefaultFont: Courier
+*Font AvantGarde-Book: Standard "(1.05)" Standard ROM
+*Font AvantGarde-BookOblique: Standard "(1.05)" Standard ROM
+*Font AvantGarde-Demi: Standard "(1.05)" Standard ROM
+*Font AvantGarde-DemiOblique: Standard "(1.05)" Standard ROM
+*Font Bookman-Demi: Standard "(1.05)" Standard ROM
+*Font Bookman-DemiItalic: Standard "(1.05)" Standard ROM
+*Font Bookman-Light: Standard "(1.05)" Standard ROM
+*Font Bookman-LightItalic: Standard "(1.05)" Standard ROM
+*Font Courier: Standard "(1.05)" Standard ROM
+*Font Courier-Bold: Standard "(1.05)" Standard ROM
+*Font Courier-BoldOblique: Standard "(1.05)" Standard ROM
+*Font Courier-Oblique: Standard "(1.05)" Standard ROM
+*Font Helvetica: Standard "(1.05)" Standard ROM
+*Font Helvetica-Bold: Standard "(1.05)" Standard ROM
+*Font Helvetica-BoldOblique: Standard "(1.05)" Standard ROM
+*Font Helvetica-Narrow: Standard "(1.05)" Standard ROM
+*Font Helvetica-Narrow-Bold: Standard "(1.05)" Standard ROM
+*Font Helvetica-Narrow-BoldOblique: Standard "(1.05)" Standard ROM
+*Font Helvetica-Narrow-Oblique: Standard "(1.05)" Standard ROM
+*Font Helvetica-Oblique: Standard "(1.05)" Standard ROM
+*Font NewCenturySchlbk-Bold: Standard "(1.05)" Standard ROM
+*Font NewCenturySchlbk-BoldItalic: Standard "(1.05)" Standard ROM
+*Font NewCenturySchlbk-Italic: Standard "(1.05)" Standard ROM
+*Font NewCenturySchlbk-Roman: Standard "(1.05)" Standard ROM
+*Font Palatino-Bold: Standard "(1.05)" Standard ROM
+*Font Palatino-BoldItalic: Standard "(1.05)" Standard ROM
+*Font Palatino-Italic: Standard "(1.05)" Standard ROM
+*Font Palatino-Roman: Standard "(1.05)" Standard ROM
+*Font Symbol: Special "(001.005)" Special ROM
+*Font Times-Bold: Standard "(1.05)" Standard ROM
+*Font Times-BoldItalic: Standard "(1.05)" Standard ROM
+*Font Times-Italic: Standard "(1.05)" Standard ROM
+*Font Times-Roman: Standard "(1.05)" Standard ROM
+*Font ZapfChancery-MediumItalic: Standard "(1.05)" Standard ROM
+*Font ZapfDingbats: Special "(001.005)" Special ROM
+*% End of hp-photosmart_a430_series.ppd, 08634 bytes.

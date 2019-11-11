@@ -1,0 +1,221 @@
+*PPD-Adobe: "4.3"
+*%%%% PPD file for HP Photosmart a640 Series hpijs with CUPS.
+*%%%% Created by the CUPS PPD Compiler CUPS v1.7.2.
+*% (c) 2004-2008 Copyright HP Development Company, LP
+*FormatVersion: "4.3"
+*FileVersion: "hpijs 3.19.10"
+*LanguageVersion: English
+*LanguageEncoding: ISOLatin1
+*PCFileName: "hp-photosmart_a640_series-hpijs.ppd"
+*Product: "(HP Photosmart a640 Printer Series)"
+*Manufacturer: "HP"
+*ModelName: "HP Photosmart a640 Series hpijs"
+*ShortNickName: "HP Photosmart a640 Series hpijs"
+*NickName: "HP Photosmart a640 Series hpijs, 3.19.10"
+*PSVersion: "(3010.000) 0"
+*LanguageLevel: "3"
+*ColorDevice: True
+*DefaultColorSpace: RGB
+*FileSystem: False
+*Throughput: "1"
+*LandscapeOrientation: Plus90
+*TTRasterizer: Type42
+*% Driver-defined attributes...
+*DefaultResolution: 300dpi
+*FoomaticRIPOptionSetting PageSize=Custom: " -dDEVICEWIDTHPOINTS=0 -dD&&
+EVICEHEIGHTPOINTS=0"
+*End
+*FoomaticIDs: "HP-PhotoSmart_A530 hpijs"
+*FoomaticRIPCommandLine: "gs -q -dBATCH -dPARANOIDSAFER -dQUIET -dNOPA&&
+USE -sDEVICE=ijs -r300 -sIjsServer=hpijs%A%B%C -dIjsUseOutputFD%Z -sOutputFi&&
+le=- -"
+*End
+*FoomaticRIPOption Model: "enum CmdLine A 100"
+*FoomaticRIPOptionSetting Model=HP-Photosmart_A53: " -sDeviceManufacture&&
+r=&quot;HEWLETT-PACKARD&quot; -sDeviceModel=&quot;Photosmart A530&quot;"
+*End
+*FoomaticRIPOption PageSize: "enum CmdLine A"
+*FoomaticRIPOptionSetting PageSize=Automatic: " -dDEVICEWIDTHPOINTS=288 -&&
+dDEVICEHEIGHTPOINTS=432"
+*End
+*FoomaticRIPOptionSetting PageSize=4x6: " -dDEVICEWIDTHPOINTS=288 -d&&
+DEVICEHEIGHTPOINTS=432"
+*End
+*FoomaticRIPOptionSetting PageSize=5x7: " -dDEVICEWIDTHPOINTS=360&&
+ -dDEVICEHEIGHTPOINTS=504"
+*End
+*FoomaticRIPOptionSetting PageSize=L: " -dDEVICEWIDTHPOINTS=252 -dDE&&
+VICEHEIGHTPOINTS=360"
+*End
+*FoomaticRIPOptionSetting PageSize=4x8: " -dDEVICEWIDTHPOINTS=288 -dDE&&
+VICEHEIGHTPOINTS=576"
+*End
+*FoomaticRIPOptionSetting PageSize=4x12: " -dDEVICEWIDTHPOINTS=288 -dDE&&
+VICEHEIGHTPOINTS=864"
+*End
+*FoomaticRIPOption MediaType: "enum CmdLine B"
+*FoomaticRIPOptionSetting MediaType=Automatic: " -sIjsParams=Quali&&
+ty:MediaType=0"
+*End
+*FoomaticRIPOptionSetting MediaType=APhoto: " -sIjsParams=Qualit&&
+y:MediaType=1"
+*End
+*FoomaticRIPOptionSetting MediaType=PPhoto: " -sIjsParams=Qualit&&
+y:MediaType=2"
+*End
+*FoomaticRIPOptionSetting MediaType=Plain: " -sIjsParams=Qualit&&
+y:MediaType=3"
+*End
+*FoomaticRIPOptionSetting MediaType=OPhoto: " -sIjsParams=Quali&&
+ty:MediaType=4"
+*End
+*FoomaticRIPOption PrintQuality: "enum CmdLine B"
+*FoomaticRIPOptionSetting PrintQuality=Automatic: ",Quality:Qu&&
+ality=0"
+*End
+*FoomaticRIPOptionSetting PrintQuality=Best: ",Quality:Qual&&
+ity=1"
+*End
+*FoomaticRIPOptionSetting PrintQuality=Normal: ",Quality:Qual&&
+ity=2"
+*End
+*FoomaticRIPOptionSetting PrintQuality=FastNormal: ",Qualit&&
+y:Quality=3"
+*End
+*FoomaticRIPOption Borderless: "enum CmdLine B"
+*FoomaticRIPOptionSetting Borderless=off: ",Quality:Full&&
+Bleed=0"
+*End
+*FoomaticRIPOptionSetting Borderless=on: ",Quality:Full&&
+Bleed=1"
+*End
+*FoomaticRIPOption PhotoFix: "enum CmdLine B"
+*FoomaticRIPOptionSetting PhotoFix=off: ",PhotoFix=0"
+*FoomaticRIPOptionSetting PhotoFix=on: ",PhotoFix=1"
+*FoomaticRIPOption RedEye: "enum CmdLine B"
+*FoomaticRIPOptionSetting RedEye=off: ",RedEye=0"
+*FoomaticRIPOptionSetting RedEye=on: ",RedEye=1"
+*1284DeviceID: "MFG:HP;MDL:photosmart a640 series;DES:photosmart a640 series;"
+*cupsVersion: 1.7
+*cupsModelNumber: 0
+*cupsManualCopies: True
+*cupsFilter: "application/vnd.cups-postscript 100 foomatic-rip-hplip"
+*cupsFilter: "application/vnd.cups-pdf 0 foomatic-rip-hplip"
+*cupsLanguages: "en"
+*OpenUI *PageSize/Media Size: PickOne
+*OrderDependency: 10 AnySetup *PageSize
+*DefaultPageSize: Automatic
+*PageSize Automatic/Automatic: "%% FoomaticRIPOptionSetting: PageSize=Automatic"
+*PageSize 4x6/4x6in, 10x15cm, A6, Hagaki : "%% FoomaticRIPOptionSetting: PageSize=4x6"
+*PageSize 5x7/5x7in, 13x18cm, 2L: "%% FoomaticRIPOptionSetting: PageSize=5x7"
+*PageSize L/3.5x5in, L: "%% FoomaticRIPOptionSetting: PageSize=L"
+*PageSize 4x8/4x8in, 10x20cm: "%% FoomaticRIPOptionSetting: PageSize=4x8"
+*PageSize 4x12/4x12in, 10x30cm: "%% FoomaticRIPOptionSetting: PageSize=4x12"
+*CloseUI: *PageSize
+*OpenUI *PageRegion/Media Size: PickOne
+*OrderDependency: 10 AnySetup *PageRegion
+*DefaultPageRegion: Automatic
+*PageRegion Automatic/Automatic: "%% FoomaticRIPOptionSetting: PageSize=Automatic"
+*PageRegion 4x6/4x6in, 10x15cm, A6, Hagaki : "%% FoomaticRIPOptionSetting: PageSize=4x6"
+*PageRegion 5x7/5x7in, 13x18cm, 2L: "%% FoomaticRIPOptionSetting: PageSize=5x7"
+*PageRegion L/3.5x5in, L: "%% FoomaticRIPOptionSetting: PageSize=L"
+*PageRegion 4x8/4x8in, 10x20cm: "%% FoomaticRIPOptionSetting: PageSize=4x8"
+*PageRegion 4x12/4x12in, 10x30cm: "%% FoomaticRIPOptionSetting: PageSize=4x12"
+*CloseUI: *PageRegion
+*DefaultImageableArea: Automatic
+*ImageableArea Automatic/Automatic: "0 0 288 432"
+*ImageableArea 4x6/4x6in, 10x15cm, A6, Hagaki : "0 0 288 432"
+*ImageableArea 5x7/5x7in, 13x18cm, 2L: "0 0 360 504"
+*ImageableArea L/3.5x5in, L: "0 0 252 360"
+*ImageableArea 4x8/4x8in, 10x20cm: "0 0 288 576"
+*ImageableArea 4x12/4x12in, 10x30cm: "0 0 288 864"
+*DefaultPaperDimension: Automatic
+*PaperDimension Automatic/Automatic: "288 432"
+*PaperDimension 4x6/4x6in, 10x15cm, A6, Hagaki : "288 432"
+*PaperDimension 5x7/5x7in, 13x18cm, 2L: "360 504"
+*PaperDimension L/3.5x5in, L: "252 360"
+*PaperDimension 4x8/4x8in, 10x20cm: "288 576"
+*PaperDimension 4x12/4x12in, 10x30cm: "288 864"
+*MaxMediaWidth: "360"
+*MaxMediaHeight: "504"
+*HWMargins: 0 0 0 0
+*CustomPageSize True: "pop pop pop <</PageSize[5 -2 roll]/ImagingBBox null>>setpagedevice"
+*ParamCustomPageSize Width: 1 points 72 360
+*ParamCustomPageSize Height: 2 points 288 504
+*ParamCustomPageSize WidthOffset: 3 points 0 0
+*ParamCustomPageSize HeightOffset: 4 points 0 0
+*ParamCustomPageSize Orientation: 5 int 0 0
+*OpenUI *MediaType/Media Type : PickOne
+*OrderDependency: 105 AnySetup *MediaType
+*DefaultMediaType: Automatic
+*MediaType Automatic/Automatic: "%% FoomaticRIPOptionSetting: MediaType=Automatic"
+*MediaType APhoto/HP Advanced Photo: "%% FoomaticRIPOptionSetting: MediaType=APhoto"
+*MediaType PPhoto/HP Premium Photo: "%% FoomaticRIPOptionSetting: MediaType=PPhoto"
+*MediaType Plain/Plain: "%% FoomaticRIPOptionSetting: MediaType=Plain"
+*MediaType OPhoto/Other Photo: "%% FoomaticRIPOptionSetting: MediaType=OPhoto"
+*CloseUI: *MediaType
+*OpenUI *PrintQuality/Print Quality : PickOne
+*OrderDependency: 105 AnySetup *PrintQuality
+*DefaultPrintQuality: Automatic
+*PrintQuality Automatic/Automatic: "%% FoomaticRIPOptionSetting: MediaType=Automatic"
+*PrintQuality Best/Best: "%% FoomaticRIPOptionSetting: MediaType=Best"
+*PrintQuality Normal/Normal: "%% FoomaticRIPOptionSetting: MediaType=Normal"
+*PrintQuality FastNormal/FastNormal: "%% FoomaticRIPOptionSetting: MediaType=FastNormal"
+*CloseUI: *PrintQuality
+*OpenUI *Borderless/Borderless Printing: Boolean
+*OrderDependency: 105 AnySetup *Borderless
+*DefaultBorderless: Enable
+*Borderless Disable/Disable: "%% FoomaticRIPOptionSetting: Borderless=off"
+*Borderless Enable/Enable: "%% FoomaticRIPOptionSetting: Borderless=on"
+*CloseUI: *Borderless
+*OpenGroup: RLT/HP Real Life Technologies
+*OpenUI *PhotoFix/Photo Fix: Boolean
+*OrderDependency: 105 AnySetup *PhotoFix
+*DefaultPhotoFix: off
+*PhotoFix off/Disable: "%% FoomaticRIPOptionSetting: PhotoFix=off"
+*PhotoFix on/Enable: "%% FoomaticRIPOptionSetting: PhotoFix=on"
+*CloseUI: *PhotoFix
+*OpenUI *RedEye/Red Eye Removal: Boolean
+*OrderDependency: 105 AnySetup *RedEye
+*DefaultRedEye: on
+*RedEye off/Disable: "%% FoomaticRIPOptionSetting: RedEye=off"
+*RedEye on/Enable: "%% FoomaticRIPOptionSetting: RedEye=on"
+*CloseUI: *RedEye
+*CloseGroup: RLT
+*DefaultFont: Courier
+*Font AvantGarde-Book: Standard "(1.05)" Standard ROM
+*Font AvantGarde-BookOblique: Standard "(1.05)" Standard ROM
+*Font AvantGarde-Demi: Standard "(1.05)" Standard ROM
+*Font AvantGarde-DemiOblique: Standard "(1.05)" Standard ROM
+*Font Bookman-Demi: Standard "(1.05)" Standard ROM
+*Font Bookman-DemiItalic: Standard "(1.05)" Standard ROM
+*Font Bookman-Light: Standard "(1.05)" Standard ROM
+*Font Bookman-LightItalic: Standard "(1.05)" Standard ROM
+*Font Courier: Standard "(1.05)" Standard ROM
+*Font Courier-Bold: Standard "(1.05)" Standard ROM
+*Font Courier-BoldOblique: Standard "(1.05)" Standard ROM
+*Font Courier-Oblique: Standard "(1.05)" Standard ROM
+*Font Helvetica: Standard "(1.05)" Standard ROM
+*Font Helvetica-Bold: Standard "(1.05)" Standard ROM
+*Font Helvetica-BoldOblique: Standard "(1.05)" Standard ROM
+*Font Helvetica-Narrow: Standard "(1.05)" Standard ROM
+*Font Helvetica-Narrow-Bold: Standard "(1.05)" Standard ROM
+*Font Helvetica-Narrow-BoldOblique: Standard "(1.05)" Standard ROM
+*Font Helvetica-Narrow-Oblique: Standard "(1.05)" Standard ROM
+*Font Helvetica-Oblique: Standard "(1.05)" Standard ROM
+*Font NewCenturySchlbk-Bold: Standard "(1.05)" Standard ROM
+*Font NewCenturySchlbk-BoldItalic: Standard "(1.05)" Standard ROM
+*Font NewCenturySchlbk-Italic: Standard "(1.05)" Standard ROM
+*Font NewCenturySchlbk-Roman: Standard "(1.05)" Standard ROM
+*Font Palatino-Bold: Standard "(1.05)" Standard ROM
+*Font Palatino-BoldItalic: Standard "(1.05)" Standard ROM
+*Font Palatino-Italic: Standard "(1.05)" Standard ROM
+*Font Palatino-Roman: Standard "(1.05)" Standard ROM
+*Font Symbol: Special "(001.005)" Special ROM
+*Font Times-Bold: Standard "(1.05)" Standard ROM
+*Font Times-BoldItalic: Standard "(1.05)" Standard ROM
+*Font Times-Italic: Standard "(1.05)" Standard ROM
+*Font Times-Roman: Standard "(1.05)" Standard ROM
+*Font ZapfChancery-MediumItalic: Standard "(1.05)" Standard ROM
+*Font ZapfDingbats: Special "(001.005)" Special ROM
+*% End of hp-photosmart_a640_series-hpijs.ppd, 09704 bytes.
